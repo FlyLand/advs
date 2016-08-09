@@ -1,0 +1,351 @@
+Date:2016-06-15 11:32:27|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123455',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 101,
+  'msg' => '服务器忙，请稍后再试',
+  'occur' => 'System_getUserByEmail',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:32:31|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 101,
+  'msg' => '服务器忙，请稍后再试',
+  'occur' => 'System_getUserByEmail',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:33:53|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:37|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:40|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:45|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:53|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:55|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:57|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:36:57|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:37:14|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:37:19|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:38:27|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:38:29|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:39:08|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:40:55|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:42:52|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:43:56|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:43:59|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:44:00|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:44:01|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:44:02|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '183.15.248.249',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:44:16|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-15 11:45:01|Input:array (
+  'email' => 'admin@qq.com',
+  'password' => '123456',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-16 13:45:20|Input:array (
+  'email' => 'zhongyiwangluo@qq.come',
+  'password' => 'Zywl168888',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-16 13:45:31|Input:array (
+  'email' => 'zhongyiwangluo@qq.come',
+  'password' => 'Zywl168888',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)
+Date:2016-06-16 13:46:53|Input:array (
+  'email' => 'zhongyiwangluo@qq.come',
+  'password' => 'Zywl168888',
+  'loginip' => '61.48.42.62',
+  'group' => NULL,
+  'title' => NULL,
+)|Output:array (
+  'ret' => 3,
+  'msg' => '输入的用户未注册！',
+  'occur' => 'System_checkUserLogin',
+  'error' => '',
+  'data' => '',
+)

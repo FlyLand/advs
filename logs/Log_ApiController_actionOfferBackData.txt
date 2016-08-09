@@ -1,0 +1,373 @@
+Date:2016-06-16 11:52:23|Input:array (
+  'r' => 'api/AdsBack',
+  'transaction_id' => '{transaction_id}',
+  'revenue' => '{revenue}',
+)|Output:array (
+  'ret' => 6,
+  'msg' => '数据保存出错',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => 'error',
+)
+Date:2016-06-16 11:52:28|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '{transaction_id}',
+  'revenue' => '{revenue}',
+)|Output:array (
+  'ret' => 6,
+  'msg' => '数据保存出错',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => 'error',
+)
+Date:2016-06-16 11:57:21|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-16 11:57:22|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-16 11:57:22|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-16 11:57:23|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-16 16:21:12|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '10_DRDSSDFQ3W_6',
+  'revenue' => '0.2',
+)|Output:array (
+  'ret' => 0,
+  'msg' => '',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => '',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => 'http://kiwitap.go2cloud.org/aff_lsr?offer_id=3177&transaction_id=DRDSSDFQ3W',
+  ),
+)
+Date:2016-06-22 17:50:00|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '{transaction_id}',
+  'revenue' => '{revenue}',
+)|Output:array (
+  'ret' => 6,
+  'msg' => '数据保存出错',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => 'error',
+)
+Date:2016-06-22 18:00:16|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '{transaction_id}',
+  'revenue' => '{revenue}',
+)|Output:array (
+  'ret' => 6,
+  'msg' => '数据保存出错',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => 'error',
+)
+Date:2016-06-22 18:02:02|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-22 18:02:06|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '{transaction_id}',
+  'revenue' => '{revenue}',
+)|Output:array (
+  'ret' => 6,
+  'msg' => '数据保存出错',
+  'occur' => 'ApiController_actionOfferBackData',
+  'error' => 'error',
+)
+Date:2016-06-30 11:23:37|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-30 11:23:37|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-06-30 11:23:39|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-01 15:47:18|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-01 15:47:18|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-01 15:47:29|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-01 15:53:41|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-01 17:46:30|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-01 17:46:32|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:32|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:32|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:39|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:40|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:40|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:40|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:48|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)
+Date:2016-07-11 09:33:48|Input:array (
+  'r' => 'api/adsback',
+  'transaction_id' => '',
+)|Output:array (
+  'ret' => 0,
+  'msg' => 'This transactionid is not exist5',
+  'occur' => '',
+  'error' => '缺失click_str;transactionid:0, is not exist;',
+  'data' => 
+  array (
+    'ispostbacked' => 1,
+    'postback' => '',
+  ),
+)

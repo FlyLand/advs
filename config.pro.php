@@ -1,0 +1,35 @@
+<?php
+//================以下是系统日志文件目录=====================
+define('DIRLOGS', '/data/nginx/www/offermgr_new/logs/');
+
+define('BASE_DIR', '/data/nginx/www/offermgr_new');
+
+define('W_APP_NAME', 'New hasoffer');
+
+//================以下是某些功能需要的常量=====================
+define("CLICK_URL", "http://offer.joymedia.mobi/index.php?r=cloud/click&");//点击地址
+
+
+//================以下是系统常用的常量=====================
+define('MEM_KEY',"JIXIN");
+define("MAINDB", "db");
+define('CACHE', 'cache');//30分钟
+define('MEM_USER_LOGIN_TIME', 1800);//登录缓存时长
+defined('Admin_MEM_PIX') or define('Admin_MEM_PIX','AdminAgent_');
+
+define('MEM_SYSTEM_USER_LIST',"SYSTEM_USER_LIST");		//系统用户表缓存
+define('MEM_SYSTEM_POWER_LIST',"SYSTEM_POWER_LIST");	//系统权限表缓存
+define('MEM_SYSTEM_GROUP_LIST',"SYSTEM_GROUP_LIST");	//系统用户组缓存
+define('MEM_SYSTEM_GROUP_POWER_LIST',"SYSTEM_GROUP_POWER_LIST");	//系统权限表缓存
+
+define('ADMIN_USER_ID',1);			//管理员ID
+define('ADMIN_GROUP_ID',1);			//管理员组ID
+define('MANAGER_GROUP_ID',2);			//代理商组ID
+define('BUSINESS_GROUP_ID',3);
+define('ADVERTISER_GROUP_ID',4);
+define('AFF_GROUP_ID',5);//代理商开通的用户组名
+define('AM_GROUP_ID',6);		//代理商开通的用户组ID
+define('SITE_GROUP_ID',7);
+define('USER_GROUP_ADMIN', 1);			//管理员ID
+
+

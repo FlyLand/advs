@@ -1,0 +1,29 @@
+Date:2016-06-16 11:15:23|Input:array (
+  'r' => 'api/offerclick',
+  'offer_id' => '1',
+  'aff_id' => '12',
+)|Output:array (
+  'ret' => 100,
+  'msg' => '服务器忙，请稍后再试',
+  'error' => 'Connection refused',
+)
+Date:2016-06-16 16:17:19|Input:array (
+  'r' => 'api/click',
+  'oid' => '6',
+  'ffid' => '10',
+  'clickid' => 'DRDSSDFQ3W',
+)|Output:array (
+  'ret' => 100,
+  'msg' => '服务器忙，请稍后再试',
+  'error' => 'Connection refused',
+)
+Date:2016-06-16 16:18:05|Input:array (
+  'r' => 'api/click',
+  'oid' => '6',
+  'ffid' => '10',
+  'clickid' => 'DRDSSDFQ3W',
+)|Output:array (
+  'ret' => 100,
+  'msg' => '服务器忙，请稍后再试',
+  'error' => 'Connection refused',
+)
