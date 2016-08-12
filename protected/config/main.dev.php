@@ -84,10 +84,10 @@ return array(
 		
 		'db'=>array(
 				'class'=>'CDbConnection',
-				'connectionString' => 'mysql:host=localhost;dbname=project',
+				'connectionString' => 'mysql:host=localhost;dbname=advs',
 				'emulatePrepare' => true,
-				'username' => 'land',
-				'password' => 'rain',
+				'username' => 'root',
+				'password' => '',
 				'charset' => 'utf8',
 				'enableProfiling'=>'true',
 		),
@@ -124,11 +124,7 @@ return array(
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 
-	'params'=>array(
-		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
-		'otherConf'=>require 'otherConf.php',
-	),
-	'defaultController'=>'index',
+	'params'=>require 'param.php',
+	'defaultController'=>'system/login',
 	'language'=>"zh_cn",
 );

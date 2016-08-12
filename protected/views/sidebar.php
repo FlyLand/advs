@@ -14,7 +14,7 @@ if(0 === strpos($requesturl, '/')){
 }
 */
 $requesturl	=	isset($_GET['r']) ? $_GET['r'] : '';
-
+var_dump($user);exit(1);
 foreach( $powerinfo as $key=>$item ){
 	$temp	=	array();
 	foreach( $item['actions'] as $action => $it ){

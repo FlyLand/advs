@@ -1,0 +1,2063 @@
+2016/08/11 12:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "advs"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('advs')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/advs/
+---
+2016/08/11 12:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('error')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/error
+---
+2016/08/11 12:50:28 [error] [php] Undefined index: userid (G:\php_web\myservice\advs\protected\views\layouts\main.php:45)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(785): ErrorController->renderFile()
+#1 G:\php_web\myservice\advs\protected\controllers\ErrorController.php(13): ErrorController->render()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): ErrorController->actionIndex()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): ErrorController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): ErrorController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): ErrorController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/error
+2016/08/11 12:51:04 [error] [php] Undefined index: userid (G:\php_web\myservice\advs\protected\views\layouts\main.php:45)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(785): ErrorController->renderFile()
+#1 G:\php_web\myservice\advs\protected\controllers\ErrorController.php(13): ErrorController->render()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): ErrorController->actionIndex()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): ErrorController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): ErrorController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): ErrorController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/error
+2016/08/11 12:51:23 [error] [php] Undefined index: userid (G:\php_web\myservice\advs\protected\views\layouts\main.php:45)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(785): ErrorController->renderFile()
+#1 G:\php_web\myservice\advs\protected\controllers\ErrorController.php(13): ErrorController->render()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): ErrorController->actionIndex()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): ErrorController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): ErrorController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): ErrorController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/error
+2016/08/11 12:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 12:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/material-fullpalette.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('css/material-fu...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/material-fullpalette.min.css.map
+---
+2016/08/11 12:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 12:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 12:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 12:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/material-fullpalette.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('css/material-fu...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/material-fullpalette.min.css.map
+---
+2016/08/11 13:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/material-fullpalette.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('css/material-fu...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/material-fullpalette.min.css.map
+---
+2016/08/11 13:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/material-fullpalette.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('css/material-fu...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/material-fullpalette.min.css.map
+---
+2016/08/11 13:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/material-fullpalette.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('css/material-fu...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/material-fullpalette.min.css.map
+---
+2016/08/11 13:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 13:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/bootstrap.min.js"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('js/bootstrap.mi...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/error
+---
+2016/08/11 13:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 14:14:36 [error] [php] require(/ddata/nginx/www/workerman/Applications/Statistics/Clients/StatisticClient.php): failed to open stream: No such file or directory (G:\php_web\myservice\advs\protected\controllers\ApiController.php:9)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(270): CWebApplication->createController()
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#2 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#3 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/api/click
+2016/08/11 14:14:49 [error] [php] fopen(/ddata/nginx/www/ipipdat/mydata4vipday1.dat): failed to open stream: No such file or directory (G:\php_web\myservice\advs\protected\components\ipip.php:115)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\controllers\ApiController.php(62): find()
+#1 G:\php_web\myservice\advs\protected\controllers\ApiController.php(23): ApiController->clickIm()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): ApiController->actionClick()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): ApiController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): ApiController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): ApiController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/api/click
+2016/08/11 18:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('test')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/test
+---
+2016/08/11 18:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('index')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('index')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('test/index')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index
+---
+2016/08/11 19:05:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('index')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('index')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('test/index')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index
+---
+2016/08/11 19:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "css" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('css')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('css')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/css/boot...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/css/bootstrap.min14ed.css?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/favicon.ico
+---
+2016/08/11 19:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/favicon.ico
+---
+2016/08/11 19:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/style.min862f.css?v=4.1.0
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/font-awesome.min93e3.css?v=4.4.0
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/animate.min.css
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "css" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('css')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('css')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/css/boot...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/css/bootstrap.min14ed.css?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/style.min862f.css?v=4.1.0
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/animate.min.css
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/font-awesome.min93e3.css?v=4.4.0
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/bootstrap.min14ed.css?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/font-awesome.min93e3.css?v=4.4.0
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/animate.min.css
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/css/style.min862f.css?v=4.1.0
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/jquery.min.js?v=2.1.4
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "assets" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('assets')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('assets')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/assets/h...')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/system/assets/hplus/js/bootstrap.min.js?v=3.3.6
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:15:47 [error] [php] include(ii.php): failed to open stream: No such file or directory (G:\php_web\myservice\yii\YiiBase.php:418)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\views\comm\login.php(6): spl_autoload_call()
+#1 G:\php_web\myservice\yii\web\CBaseController.php(127): require()
+#2 G:\php_web\myservice\yii\web\CBaseController.php(96): SystemController->renderInternal()
+#3 G:\php_web\myservice\yii\web\CController.php(870): SystemController->renderFile()
+#4 G:\php_web\myservice\advs\protected\controllers\SystemController.php(127): SystemController->renderPartial()
+#5 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#6 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\php_web\myservice\yii\web\CController.php(287): SystemController->runAction()
+#8 G:\php_web\myservice\yii\web\CController.php(266): SystemController->runActionWithFilters()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(276): SystemController->run()
+#10 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#11 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/system/login
+2016/08/11 19:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/favicon.ico"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/fa...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/favicon.ico
+---
+2016/08/11 19:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/favicon.ico"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/fa...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/favicon.ico
+---
+2016/08/11 19:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:34:17 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(64): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:34:25 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(64): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/system/login
+---
+2016/08/11 19:34:31 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(64): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:35:17 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:35:21 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:35:49 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(64): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:35:55 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(64): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:36:21 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:36:26 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:40:04 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:40:15 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:40:47 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:40:58 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(65): CController->render('login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:48:53 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "/".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('/', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(63): CController->render('/', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('system/login')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/system/login
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:49:02 [error] [php] Undefined variable: model (G:\php_web\myservice\advs\protected\views\comm\login.php:45)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(870): IndexController->renderFile()
+#1 G:\php_web\myservice\advs\protected\controllers\IndexController.php(19): IndexController->renderPartial()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/11 19:49:52 [error] [php] Undefined variable: model (G:\php_web\myservice\advs\protected\views\comm\login.php:1)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(870): IndexController->renderFile()
+#1 G:\php_web\myservice\advs\protected\controllers\IndexController.php(19): IndexController->renderPartial()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/11 19:49:53 [error] [php] Undefined variable: model (G:\php_web\myservice\advs\protected\views\comm\login.php:1)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(870): IndexController->renderFile()
+#1 G:\php_web\myservice\advs\protected\controllers\IndexController.php(19): IndexController->renderPartial()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/11 19:53:24 [error] [exception.CException] exception 'CException' with message '属性 "LoginForm." 未被定义.' in G:\php_web\myservice\yii\base\CComponent.php:131
+Stack trace:
+#0 G:\php_web\myservice\yii\web\helpers\CHtml.php(2044): CComponent->__get('')
+#1 G:\php_web\myservice\yii\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), '')
+#2 G:\php_web\myservice\yii\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(LoginForm), '', Array)
+#3 G:\php_web\myservice\yii\web\widgets\CActiveForm.php(575): CHtml::activeTextField(Object(LoginForm), '', Array)
+#4 G:\php_web\myservice\advs\protected\views\comm\login.php(45): CActiveForm->textField(Object(LoginForm), '')
+#5 G:\php_web\myservice\yii\web\CBaseController.php(127): require('G:\\php_web\\myse...')
+#6 G:\php_web\myservice\yii\web\CBaseController.php(96): CBaseController->renderInternal('G:\\php_web\\myse...', Array, true)
+#7 G:\php_web\myservice\yii\web\CController.php(870): CBaseController->renderFile('G:\\php_web\\myse...', Array, true)
+#8 G:\php_web\myservice\advs\protected\controllers\IndexController.php(20): CController->renderPartial('/comm/login', Array)
+#9 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#10 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('')
+#14 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:55:06 [error] [exception.CException] exception 'CException' with message '属性 "LoginForm.email" 未被定义.' in G:\php_web\myservice\yii\base\CComponent.php:131
+Stack trace:
+#0 G:\php_web\myservice\yii\web\helpers\CHtml.php(2044): CComponent->__get('email')
+#1 G:\php_web\myservice\yii\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 G:\php_web\myservice\yii\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 G:\php_web\myservice\yii\web\widgets\CActiveForm.php(575): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 G:\php_web\myservice\advs\protected\views\comm\login.php(45): CActiveForm->textField(Object(LoginForm), 'email', Array, 'required')
+#5 G:\php_web\myservice\yii\web\CBaseController.php(127): require('G:\\php_web\\myse...')
+#6 G:\php_web\myservice\yii\web\CBaseController.php(96): CBaseController->renderInternal('G:\\php_web\\myse...', Array, true)
+#7 G:\php_web\myservice\yii\web\CController.php(870): CBaseController->renderFile('G:\\php_web\\myse...', Array, true)
+#8 G:\php_web\myservice\advs\protected\controllers\IndexController.php(20): CController->renderPartial('/comm/login', Array)
+#9 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#10 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('')
+#14 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:55:47 [error] [exception.CException] exception 'CException' with message '属性 "LoginForm.email" 未被定义.' in G:\php_web\myservice\yii\base\CComponent.php:131
+Stack trace:
+#0 G:\php_web\myservice\yii\web\helpers\CHtml.php(2044): CComponent->__get('email')
+#1 G:\php_web\myservice\yii\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 G:\php_web\myservice\yii\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 G:\php_web\myservice\yii\web\widgets\CActiveForm.php(575): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 G:\php_web\myservice\advs\protected\views\comm\login.php(45): CActiveForm->textField(Object(LoginForm), 'email', Array, 'required')
+#5 G:\php_web\myservice\yii\web\CBaseController.php(127): require('G:\\php_web\\myse...')
+#6 G:\php_web\myservice\yii\web\CBaseController.php(96): CBaseController->renderInternal('G:\\php_web\\myse...', Array, true)
+#7 G:\php_web\myservice\yii\web\CController.php(870): CBaseController->renderFile('G:\\php_web\\myse...', Array, true)
+#8 G:\php_web\myservice\advs\protected\controllers\IndexController.php(20): CController->renderPartial('/comm/login', Array)
+#9 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#10 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('')
+#14 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:55:49 [error] [exception.CException] exception 'CException' with message '属性 "LoginForm.email" 未被定义.' in G:\php_web\myservice\yii\base\CComponent.php:131
+Stack trace:
+#0 G:\php_web\myservice\yii\web\helpers\CHtml.php(2044): CComponent->__get('email')
+#1 G:\php_web\myservice\yii\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'email')
+#2 G:\php_web\myservice\yii\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(LoginForm), 'email', Array)
+#3 G:\php_web\myservice\yii\web\widgets\CActiveForm.php(575): CHtml::activeTextField(Object(LoginForm), 'email', Array)
+#4 G:\php_web\myservice\advs\protected\views\comm\login.php(45): CActiveForm->textField(Object(LoginForm), 'email', Array, 'required')
+#5 G:\php_web\myservice\yii\web\CBaseController.php(127): require('G:\\php_web\\myse...')
+#6 G:\php_web\myservice\yii\web\CBaseController.php(96): CBaseController->renderInternal('G:\\php_web\\myse...', Array, true)
+#7 G:\php_web\myservice\yii\web\CController.php(870): CBaseController->renderFile('G:\\php_web\\myse...', Array, true)
+#8 G:\php_web\myservice\advs\protected\controllers\IndexController.php(20): CController->renderPartial('/comm/login', Array)
+#9 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#10 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('')
+#14 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('')
+#15 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/11 19:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 19:56:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:00:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/11 20:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 10:09:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:11:42 [error] [php] Missing argument 2 for CActiveForm::error(), called in G:\php_web\myservice\advs\protected\views\comm\login.php on line 47 and defined (G:\php_web\myservice\yii\web\widgets\CActiveForm.php:412)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(870): IndexController->renderFile()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(20): IndexController->renderPartial()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/12 11:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:15:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 11:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/css/bootstrap.min.css.map"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/cs...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/css/bootstrap.min.css.map
+---
+2016/08/12 13:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "clickIm" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('clickIm')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('clickIm')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('api/clickIm')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/clickIm
+---
+2016/08/12 13:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/08/12 13:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/08/12 13:54:08 [error] [php] fopen(/ddata/nginx/www/ipipdat/mydata4vipday1.dat): failed to open stream: No such file or directory (G:\php_web\myservice\advs\protected\components\ipip.php:115)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\controllers\ApiController.php(61): find()
+#1 G:\php_web\myservice\advs\protected\controllers\ApiController.php(22): ApiController->clickIm()
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): ApiController->actionClick()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#4 G:\php_web\myservice\yii\web\CController.php(287): ApiController->runAction()
+#5 G:\php_web\myservice\yii\web\CController.php(266): ApiController->runActionWithFilters()
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): ApiController->run()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/api/click
+2016/08/12 13:59:31 [error] [php] Trying to get property of non-object (G:\php_web\myservice\advs\protected\controllers\ApiController.php:117)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 G:\php_web\myservice\yii\web\CController.php(287): ApiController->runAction()
+#2 G:\php_web\myservice\yii\web\CController.php(266): ApiController->runActionWithFilters()
+#3 G:\php_web\myservice\yii\web\CWebApplication.php(276): ApiController->run()
+#4 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#5 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/api/click
+2016/08/12 14:00:25 [error] [php] Trying to get property of non-object (G:\php_web\myservice\advs\protected\controllers\ApiController.php:116)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 G:\php_web\myservice\yii\web\CController.php(287): ApiController->runAction()
+#2 G:\php_web\myservice\yii\web\CController.php(266): ApiController->runActionWithFilters()
+#3 G:\php_web\myservice\yii\web\CWebApplication.php(276): ApiController->run()
+#4 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#5 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/api/click
+2016/08/12 14:01:00 [error] [php] Trying to get property of non-object (G:\php_web\myservice\advs\protected\controllers\ApiController.php:116)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 G:\php_web\myservice\yii\web\CController.php(287): ApiController->runAction()
+#2 G:\php_web\myservice\yii\web\CController.php(266): ApiController->runActionWithFilters()
+#3 G:\php_web\myservice\yii\web\CWebApplication.php(276): ApiController->run()
+#4 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#5 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/api/click
+2016/08/12 14:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "clickIm" 动作.' in G:\php_web\myservice\yii\web\CController.php:484
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(271): CController->missingAction('clickIm')
+#1 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('clickIm')
+#2 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('api/clickIm')
+#3 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/clickIm
+---
+2016/08/12 14:52:21 [error] [exception.CException] exception 'CException' with message 'SystemController 无法找到请求的视图 "system/login".' in G:\php_web\myservice\yii\web\CController.php:879
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(783): CController->renderPartial('system/login', Array, true)
+#1 G:\php_web\myservice\advs\protected\controllers\SystemController.php(62): CController->render('system/login', Array)
+#2 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#3 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2016/08/12 14:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/favicon.ico"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/fa...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/favicon.ico
+---
+2016/08/12 14:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "assets/hplus/favicon.ico"。' in G:\php_web\myservice\yii\web\CWebApplication.php:280
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('assets/hplus/fa...')
+#1 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/hplus/favicon.ico
+---
+2016/08/12 14:52:43 [error] [php] include(User.php): failed to open stream: No such file or directory (G:\php_web\myservice\yii\YiiBase.php:418)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\components\UserIdentity.php(27): spl_autoload_call()
+#1 G:\php_web\myservice\advs\protected\models\LoginForm.php(55): UserIdentity->authenticate()
+#2 G:\php_web\myservice\yii\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 G:\php_web\myservice\yii\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 G:\php_web\myservice\yii\base\CModel.php(158): CInlineValidator->validate()
+#5 G:\php_web\myservice\advs\protected\controllers\SystemController.php(57): LoginForm->validate()
+#6 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#7 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#8 G:\php_web\myservice\yii\web\CController.php(287): SystemController->runAction()
+#9 G:\php_web\myservice\yii\web\CController.php(266): SystemController->runActionWithFilters()
+#10 G:\php_web\myservice\yii\web\CWebApplication.php(276): SystemController->run()
+#11 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#12 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/12 14:53:17 [error] [php] include(User.php): failed to open stream: No such file or directory (G:\php_web\myservice\yii\YiiBase.php:418)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\components\UserIdentity.php(27): spl_autoload_call()
+#1 G:\php_web\myservice\advs\protected\models\LoginForm.php(55): UserIdentity->authenticate()
+#2 G:\php_web\myservice\yii\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 G:\php_web\myservice\yii\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 G:\php_web\myservice\yii\base\CModel.php(158): CInlineValidator->validate()
+#5 G:\php_web\myservice\advs\protected\controllers\SystemController.php(58): LoginForm->validate()
+#6 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#7 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#8 G:\php_web\myservice\yii\web\CController.php(287): SystemController->runAction()
+#9 G:\php_web\myservice\yii\web\CController.php(266): SystemController->runActionWithFilters()
+#10 G:\php_web\myservice\yii\web\CWebApplication.php(276): SystemController->run()
+#11 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#12 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/12 14:53:33 [error] [php] include(User.php): failed to open stream: No such file or directory (G:\php_web\myservice\yii\YiiBase.php:418)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\components\UserIdentity.php(27): spl_autoload_call()
+#1 G:\php_web\myservice\advs\protected\models\LoginForm.php(55): UserIdentity->authenticate()
+#2 G:\php_web\myservice\yii\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 G:\php_web\myservice\yii\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 G:\php_web\myservice\yii\base\CModel.php(158): CInlineValidator->validate()
+#5 G:\php_web\myservice\advs\protected\controllers\SystemController.php(57): LoginForm->validate()
+#6 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#7 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#8 G:\php_web\myservice\yii\web\CController.php(287): SystemController->runAction()
+#9 G:\php_web\myservice\yii\web\CController.php(266): SystemController->runActionWithFilters()
+#10 G:\php_web\myservice\yii\web\CWebApplication.php(276): SystemController->run()
+#11 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#12 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/12 14:55:54 [error] [php] include(User.php): failed to open stream: No such file or directory (G:\php_web\myservice\yii\YiiBase.php:418)
+Stack trace:
+#0 G:\php_web\myservice\advs\protected\components\UserIdentity.php(27): spl_autoload_call()
+#1 G:\php_web\myservice\advs\protected\models\LoginForm.php(55): UserIdentity->authenticate()
+#2 G:\php_web\myservice\yii\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 G:\php_web\myservice\yii\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 G:\php_web\myservice\yii\base\CModel.php(158): CInlineValidator->validate()
+#5 G:\php_web\myservice\advs\protected\controllers\SystemController.php(57): LoginForm->validate()
+#6 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#7 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#8 G:\php_web\myservice\yii\web\CController.php(287): SystemController->runAction()
+#9 G:\php_web\myservice\yii\web\CController.php(266): SystemController->runActionWithFilters()
+#10 G:\php_web\myservice\yii\web\CWebApplication.php(276): SystemController->run()
+#11 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#12 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/
+2016/08/12 15:03:27 [error] [exception.CException] exception 'CException' with message '属性 "JoySystemUser.truename" 未被定义.' in G:\php_web\myservice\yii\base\CComponent.php:131
+Stack trace:
+#0 G:\php_web\myservice\yii\db\ar\CActiveRecord.php(144): CComponent->__get('truename')
+#1 G:\php_web\myservice\advs\protected\components\UserIdentity.php(43): CActiveRecord->__get('truename')
+#2 G:\php_web\myservice\advs\protected\models\LoginForm.php(55): UserIdentity->authenticate()
+#3 G:\php_web\myservice\yii\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 G:\php_web\myservice\yii\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 G:\php_web\myservice\yii\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 G:\php_web\myservice\advs\protected\controllers\SystemController.php(57): CModel->validate()
+#7 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): SystemController->actionLogin()
+#8 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 G:\php_web\myservice\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 G:\php_web\myservice\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 G:\php_web\myservice\yii\web\CWebApplication.php(276): CController->run('login')
+#12 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController('')
+#13 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#14 G:\php_web\myservice\advs\index.php(24): CApplication->run()
+#15 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://myserver.test.com:50500/
+---
+2016/08/12 15:11:04 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:11:35 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:11:37 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:11:59 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:12:22 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:12:33 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:12:49 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:13:44 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:14:26 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:14:54 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:15:50 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(869): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:17:40 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(867): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:18:33 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:707)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(868): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(784): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:19:00 [error] [php] strpos() expects parameter 1 to be string, array given (G:\php_web\myservice\yii\web\CController.php:708)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CController.php(869): IndexController->getViewFile()
+#1 G:\php_web\myservice\yii\web\CController.php(785): IndexController->renderPartial()
+#2 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#3 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#4 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#6 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#7 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#9 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:20:14 [error] [php] Invalid argument supplied for foreach() (G:\php_web\myservice\advs\protected\views\sidebar.php:18)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:21:05 [error] [php] Invalid argument supplied for foreach() (G:\php_web\myservice\advs\protected\views\sidebar.php:18)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:21:15 [error] [php] Invalid argument supplied for foreach() (G:\php_web\myservice\advs\protected\views\sidebar.php:18)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:21:20 [error] [php] Invalid argument supplied for foreach() (G:\php_web\myservice\advs\protected\views\sidebar.php:18)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 15:21:41 [error] [php] Undefined variable: user (G:\php_web\myservice\advs\protected\views\sidebar.php:17)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 16:13:57 [error] [php] Undefined variable: user (G:\php_web\myservice\advs\protected\views\sidebar.php:17)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index
+2016/08/12 17:06:34 [error] [php] Undefined variable: user (G:\php_web\myservice\advs\protected\views\sidebar.php:17)
+Stack trace:
+#0 G:\php_web\myservice\yii\web\CBaseController.php(96): IndexController->renderInternal()
+#1 G:\php_web\myservice\yii\web\CController.php(869): IndexController->renderFile()
+#2 G:\php_web\myservice\yii\web\CController.php(783): IndexController->renderPartial()
+#3 G:\php_web\myservice\advs\protected\controllers\IndexController.php(22): IndexController->render()
+#4 G:\php_web\myservice\yii\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#5 G:\php_web\myservice\yii\web\CController.php(309): CInlineAction->runWithParams()
+#6 G:\php_web\myservice\yii\web\CController.php(287): IndexController->runAction()
+#7 G:\php_web\myservice\yii\web\CController.php(266): IndexController->runActionWithFilters()
+#8 G:\php_web\myservice\yii\web\CWebApplication.php(276): IndexController->run()
+#9 G:\php_web\myservice\yii\web\CWebApplication.php(135): CWebApplication->runController()
+#10 G:\php_web\myservice\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\php_web\myservice\advs\index.php(24): CWebApplication->run()
+REQUEST_URI=/index

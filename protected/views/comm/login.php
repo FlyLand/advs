@@ -1,110 +1,61 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head>
-<meta charset="UTF-8">
-<title>Offer Manager</title>
-<meta http-equiv="X-UA-Compatible" content="IE=8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<html>
+<!-- Mirrored from www.zi-han.net/theme/hplus/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:18:23 GMT -->
+<head>
 
-
-<style>
-#content{
-	margin:0 auto;
-	width:500px;
-	text-align:center;
-}
-legend {
-	font-weight: bold;
-}
-</style>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Offer Login</title>
+	<meta name="keywords" content="Offer Login">
+	<meta name="description" content="Offer Login">
+	<script src="<?php echo Yii::app()->params['cssPath']?>js/jquery.min.js?v=2.1.4"></script>
+	<script src="<?php echo Yii::app()->params['cssPath']?>js/bootstrap.min.js?v=3.3.6"></script>
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+	<link rel="shortcut icon" href="<?php echo Yii::app()->params['cssPath']?>favicon.ico">
+	<link href="<?php echo Yii::app()->params['cssPath']?>css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+	<link href="<?php echo Yii::app()->params['cssPath']?>css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+	<link href="<?php echo Yii::app()->params['cssPath']?>css/animate.min.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->params['cssPath']?>css/style.min862f.css?v=4.1.0" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<meta http-equiv="refresh" content="0;ie.html" />
+	<![endif]-->
+	<script>if(window.top !== window.self){ window.top.location = window.location;}</script>
 </head>
-<body>
 
-<div class="bot_city"></div>
-<div style=" position:relative;">
-<div class="cloud"></div><div class="cloud2"></div><div class="cloud3"></div><div class="cloud cloud_pos"></div><div class="cloud2 cloud_pos1"></div>
-</div>
-
-<div id="content">
-	<div class="login_right">
-		<div class="well bs-component" style="margin-top: 50%;">
-			<form class="form-horizontal" id="loginform" action="<?php echo $this->createUrl('system/login');?>" method="post" onsubmit="return checkInput();">
-			<div style="margin:0 auto;color: red;"><?php echo isset($msg) ? $msg :'';?></div>
-				<fieldset>
-					<legend>Offer Manager</legend>
-					<div class="am-u-sm-6">
-<!--						<label class="am-radio">
-							<input type="radio" name="login_group" value="0" data-am-ucheck checked>
-							Manager
-						</label>
-						<label class="am-radio">
-							<input type="radio" name="login_group" value="1" data-am-ucheck>
-							Affiliate
-						</label>-->
-					<div class="form-group">
-						<label for="inputEmail" class="col-lg-2 control-label">Email:</label>
-						<div class="col-lg-10">
-							<input type="text" class="form-control" id="email" placeholder="Email Address" name="email" />
-						</div>
-					</div>
-<!--					<div class="form-group" id="title_div" style="display: none">
-						<label for="inputEmail" class="col-lg-2 control-label">Title:</label>
-						<div class="col-lg-10">
-							<input type="text" class="form-control" id="email" placeholder="Title" name="title" />
-						</div>
-					</div>-->
-					<div class="form-group">
-						<label for="inputPassword" class="col-lg-2 control-label">Password:</label>
-						<div class="col-lg-10">
-							<input type="password" class="form-control" id="password" placeholder="Your Password" name="password" />
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-lg-10 col-lg-offset-2">
-							<button type="submit" class="btn btn-primary">Sign In</button>
-<!--							<button onclick="register()" type="button" class="btn btn-primary">Register</button>-->
-						</div>
-					</div>
-				</fieldset>
-			</form>
+<body class="gray-bg">
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'login-form',
+	'htmlOptions'=>array(
+		'class'=>'form-vertical login-form'
+	),
+	'enableClientValidation'=>true,
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+		'inputContainer'=>'.control-group'
+	),
+)); ?>
+<div class="middle-box text-center loginscreen  animated fadeInDown">
+	<div>
+		<div>
+			<h1 class="logo-name">Offer</h1>
 		</div>
-		
+		<h3>Welcome to Offer</h3>
+		<form class="m-t" role="form" id="LoginForm" method="post">
+			<div class="form-group">
+				<?php echo $form->textField($model,'email',array('class'=>'form-control','placeholder'=>'email','required'))?>
+<!--				<input id="email" type="email" class="form-control" placeholder="userName" required="">-->
+				<?php echo $form->error($model,'email')?>
+			</div>
+			<div class="form-group">
+				<?php echo $form->textField($model,'password',array('class'=>'form-control'),'required')?>
+				<?php echo $form->error($model,'email')?>
+			</div>
+
+			<button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+		</form>
 	</div>
 </div>
-
-<script type="text/javascript">
-/*	$("[name='login_group']").click(function(){
-		var val = $(this).val();
-		if(val == 1){
-			$('#title_div').show();
-		}else{
-			$('#title_div').hide();
-		}
-	});*/
-function checkInput(){
-	var form=document.getElementById('loginform');
-	var email = document.getElementById("email");
-	var password = document.getElementById("password");
-	if(email.value == ""){
-		alert('Please enter email address');
-		uname.focus();
-		return false;
-	}
-	if(password.value==""){
-		alert('Please enter password')
-		password.focus();
-		return false;
-	}
-	if(password.value.length < 3) {
-		alert('Password less than 3, please re-enter');
-		password.focus();
-		return false;
-	}
-	form.submit();
-}
-var register = function(){
-	location.href='<?php echo $this->createUrl('standard/registerForm');?>';
-};
-</script>
 </body>
+<!-- Mirrored from www.zi-han.net/theme/hplus/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:18:23 GMT -->
 </html>
+<?php $this->endWidget()?>

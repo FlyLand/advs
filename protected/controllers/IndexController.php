@@ -15,10 +15,11 @@ class IndexController extends Controller
 	 * 首页
 	 */
 	public function actionIndex(){
-		if(!$this->user){
-			$this->renderPartial('/comm/login');
+		if(empty(Yii::app()->user->id)){
+			$model = new LoginForm();
+			$this->renderPartial('/comm/login',array('model'=>$model));
 		}else{
-			$this->redirect(array("system/index"));
+			$this->render("system/index");
 		}
 	}
 	

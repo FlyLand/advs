@@ -8,8 +8,9 @@
  */
 class ErrorController extends Controller
 {
-    public function actionError(){
+    public function actionIndex(){
         $error = Yii::app()->errorHandler->error;
+        $this->layout = '//layouts/main';
         $this->render('error',array('error'=>$error));
     }
 }

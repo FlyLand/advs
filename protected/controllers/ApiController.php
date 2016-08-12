@@ -6,14 +6,14 @@
  * Date: 2016/5/4
  * Time: 11:23
  */
-require '/ddata/nginx/www/workerman/Applications/Statistics/Clients/StatisticClient.php';
+//require '/ddata/nginx/www/workerman/Applications/Statistics/Clients/StatisticClient.php';
 class ApiController extends Controller
 {
     public $ret_array	=	array('ret'=>-1, 'msg'=>'', 'occur'=>'', 'error'=>'');
-    public function getErrorCode(){
+    private function getErrorCode(){
         return $this->ret_array['ret'];
     }
-    public function getErrorMsg(){
+    private function getErrorMsg(){
         return $this->ret_array['msg'];
     }
     public function actionClick(){
@@ -33,9 +33,9 @@ class ApiController extends Controller
             try{
                 //get the params
                 $original_offer_id	=	Yii::app()->request->getParam('oid');
-                $original_aff_id		=	Yii::app()->request->getParam('ffid');
+                $original_aff_id		=	Yii::app()->request->getParam('channel');
                 $aff_sub	=	Yii::app()->request->getParam('clickid');
-                $subid		=	Yii::app()->request->getParam('f_sub');
+                $subid		=	Yii::app()->request->getParam('subid');
                 $query	=  Yii::app()->request->getParam('search');
                 $query = urldecode($query);
 
@@ -59,7 +59,6 @@ class ApiController extends Controller
                 $ipip = new ipip();
                 $ip = $ipip->getIP();
                 $country_arr = $ipip->find($ip);
-
                 $url_this = $_SERVER['SERVER_NAME'];
                 //jump the offer we had set
                 if($aff_id != DEFAULT_AFF_ID){
@@ -112,9 +111,9 @@ class ApiController extends Controller
                  //   $publish_id = Common::getPublisherId($aff_id,$country_arr[0],$offer_id);
                   //  $params = array('url'=>$offers->offer_url, 'transaction_id'=>$click_str, 'affid'=>$publish_id,'search'=>$query);
                 //}else{
-                    $params = array('url'=>$offers->offer_url, 'transaction_id'=>$click_str, 'affid'=>$aff_id,'search'=>$query);
+                    $params = array('clickid'=>$click_str, 'channel'=>$aff_id,'search'=>$query);
                 //}
-                $offer_url			=	self::OfferUrlReplace($params);
+                $offer_url			=	self::OfferUrlReplace($offers->offer_url,$params);
                 $transaction				=	new JoyTransaction();
                 $insert_params['offerid'] = $transaction->offerid		=	$offer_id;
                 $insert_params['advid'] = $transaction->advid			=	$offers->advertiser_id;
@@ -130,7 +129,8 @@ class ApiController extends Controller
                 $insert_params['createtime2'] = $transaction->createtime2	=	gmdate('Y-m-d H:i:s');
                 if(empty($query)){
 	                $insert_params['offer_url'] = $transaction->offer_url     = (string)$offer_url;
-		}
+		        }
+
 //                $insert_params['net_type'] = $transaction->net_type = $network_type;
 //                $handle = new SqlHandle2(Yii::app()->redis_cache,'sql_cache','appdown');
 //                $sql = $handle->createSql(null,'joy_transaction_redis',$insert_params,'insert');
@@ -167,7 +167,7 @@ class ApiController extends Controller
         $belong = 1;
         do{
             try{
-                $click_str	=	Yii::app()->request->getParam('transaction_id');
+                $click_str	=	Yii::app()->request->getParam('clickid');
                 $clientip	=	Yii::app()->request->getParam('clientip');
                 $country = Yii::app()->request->getParam('cou');
                 $carrier = Yii::app()->request->getParam('car');
@@ -191,8 +191,8 @@ class ApiController extends Controller
                 $transaction	=	JoyTransaction::model()->findByAttributes(array('transactionid'=>$clickid, 'original_affid'=>$affid, 'original_offerid'=>$offerid));
                 if(empty($transaction)){
                     $this->ret_array['ret']	=	9;
-                    $this->ret_array['msg']	=	'This transactionid is not exist5';
-                    $this->ret_array['error']	.=	'transactionid:'.$clickid.', is not exist;';
+                    $this->ret_array['msg']	=	'This clickid is not exist5';
+                    $this->ret_array['error']	.=	'clickid:'.$clickid.', is not exist;';
                     $belong = 0;
                 }else{
                     $aff_subid		=	$transaction->aff_subid;
@@ -271,19 +271,19 @@ class ApiController extends Controller
                 if(null == $aff_cutcount || empty($aff_cutcount)){
                     $aff_cutcount	=	0;  //if here is nothing they should get all
                 }
+                if(empty($aff_subid))
+                    $aff_subid = '';
                 if(isset($aff_info['postback'])){
                     $postback	=	$aff_info['postback'];
-                    $postback	=	str_replace('{aff_sub}', $clickid, $postback);
-                    $postback	=	str_replace('{payout}', $payout, $postback);
-                    if(isset($aff_subid)){
-                        $postback	=	str_replace('{affsub_id}', $aff_subid, $postback);
-                    }
-                    if(isset($campaign_id)){
-                        $postback	=	str_replace('{campaign_id}', $campaign_id, $postback);
-                    }
-                    $postback	=	str_replace('{platform}', $platform, $postback);
-					$postback	=	str_replace('{offerid}', $offerid, $postback);
-                    $postback	=	str_replace('{ip}', $clientip, $postback);
+                    $transaction_income->postback = $this->OfferUrlReplace($postback,array(
+                        'clickid'=>$clickid,
+                        'affid'=>$affid,
+                        'oid'=>$offerid,
+                        'ip'=>$clientip,
+                        'payout'=>$payout,
+                        'channel'=>$affid,
+                        'subid'=>$aff_subid
+                    ));
                     $transaction_income->postback = $postback;
                 }
                 if($cut_num > $aff_cutcount && $cut_num2 > $offer_cut_num){
@@ -320,52 +320,25 @@ class ApiController extends Controller
             }
             if($ispostbacked == 1){
                 $result = Common::curlGet(array('url'=>$postback));
-                var_dump($result);
+                echo $result;
             }else{
                 echo 'success';
             }
         }
     }
-    /**
-     * Here is a test function which tert the url
-     */
-    public function actionUrlTest(){
-        $offer_id		=	Yii::app()->request->getParam('offer_id');
-        $aff_id			=	Yii::app()->request->getParam('aff_id');
-        $transactionid	=	Yii::app()->request->getParam('test', '1');
 
-        if (empty($offer_id) || empty($aff_id)){
-            echo 'offer_id 和 aff_id 为空';
-            exit;
+    private static function OfferUrlReplace($url,$params=array()){
+        foreach ($params as $key=>$value){
+            if(empty($value)){
+                continue;
+            }
+            if(isset(Yii::app()->params['replaceParams'][$key])){
+                $replace_param = Yii::app()->params['replaceParams'][$key];
+            }
+            if(!empty($replace_param)){
+                $url			=	str_replace($replace_param, $value, $url);
+            }
         }
-        $offer	=	joy_offers::model()->findByPk($offer_id);
-        $aff	=	JoySystemUser::model()->findByPk($aff_id);
-        if(empty($offer) || empty($aff)){
-            echo '相关数据为空，测试失败！';
-            exit;
-        }
-        $postback	=	$aff['postback'];
-        $postback	=	str_replace('{aff_sub}', $transactionid, $postback);
-        $postback	=	str_replace('{payout}', '', $postback);
-        if(!empty($postback)){
-            Common::curlGet(array('url'=>$postback));
-        }
-        echo 'offer_id:'.$offer_id."<br>";
-        echo 'aff_id:'.$aff_id.'<br>';
-        echo 'postback:'.$postback.'<br>';
-    }
-
-    private static function OfferUrlReplace($params=array()){
-        $url			=	isset($params['url']) ? $params['url'] : '';
-        $transaction_id	=	isset($params['transaction_id']) ? $params['transaction_id'] : '';
-        $affid			=	isset($params['affid']) ? $params['affid'] : '';
-        $search			=	isset($params['search']) ? $params['search'] : '';
-
-        $url			=	str_replace('{transaction_id}', $transaction_id, $url);
-        $url			=	str_replace('{publisher_id}', $affid, $url);
-        $url			=	str_replace('{affid}', $affid, $url);
-        $url			=	str_replace('{channel}', $affid, $url);
-        $url			= str_replace('{search}',$search,$url);
         return $url;
     }
 }

@@ -49,83 +49,35 @@ class SystemController extends Controller{
 	 */
 	public function actionLogin()
 	{
-		if( isset($this->user['email']) && !empty($this->user['email']) ){
-			$this->redirect( array("system/index") );
-			exit;
-		}
-		$ret_array		=	array( 'ret'=>-1, 'msg'=>null , 'data'=>null );
-		do{
-			$this->pageTitle		=	W_APP_NAME . 'Login';
-			try {
-				if( isset($_POST['email']) && !empty($_POST['email'])){
-					$email		=	isset($_POST['email']) ? trim($_POST['email']) : '';
-					$password	=	isset($_POST['password']) ? trim($_POST['password']) : '';
-					$group = Yii::app()->request->getParam('login_group');
-					$title = Yii::app()->request->getParam('title');
-					if( empty($email) ){
-						$ret_array['ret']	=	1;
-						$ret_array['msg']	=	'Please enter email address';
-						break;
-					}
-					$ret_array['email']		=	$email;
-					if( empty($password) ){
-						$ret_array['ret']	=	2;
-						$ret_array['msg']	=	'Please enter password';
-						break;
-					}
-					//登录
-					$loginip	=	Common::getIp();
-
-					$reqData	=	System::checkUserLogin(array('email'=>$email, 'password'=>$password, 'loginip'=>$loginip,'group'=>$group,'title'=>$title));//用户登录检查
-					if( empty($reqData) || !isset($reqData['ret']) ){
-						$ret_array['ret']	= 	101;
-						$ret_array['msg']	= 	'服务器忙，请稍后再试';
-						break;
-					}
-					if( 0 != $reqData['ret']	){
-						$ret_array	= 	$reqData;
-						break;
-					}
-					$userinfo	=	$reqData['data'];
-	
-					$reqData	=	System::getGroupPowerDetail(array('groupid'=>$userinfo['groupid'], 'datatype'=>'simple'));//用户登录检查
-					if( empty($reqData) || !isset($reqData['ret']) ){
-						$ret_array['ret']	= 	101;
-						$ret_array['msg']	= 	'服务器忙，请稍后再试';
-						break;
-					}
-					if( 0 != $reqData['ret']	){
-						$ret_array	= 	$reqData;
-						break;
-					}
-					$powerinfo	=	$reqData['data'];
-					$actioninfo	=	array();
-					foreach($powerinfo as $item ){
-						$actioninfo = array_merge($actioninfo, array_keys($item['actions']));
-					}
-					$session_data				=	array();
-					$session_data['userid']		=	$userinfo['id'];
-					$session_data['email']		=	$email;
-					$session_data['powerinfo']	=	$powerinfo;
-					$session_data['actioninfo']	=	$actioninfo;
-					$session_data['groupid']	=	$userinfo['groupid'];
-					$session_data['openuser']	=	$userinfo['openuser'];
-					$session_data['showmenu']	=	'';
-					$session_data['dtime']		=	date('Y-m-d H:i:s');
-					
-					CfgAR::setMc(array('link'=>CACHE,'key'=>Admin_MEM_PIX.$this->getSessionId(),'data'=>$session_data,'time'=>MEM_USER_LOGIN_TIME));
-
-					if(isset($_SESSION['activity_login_url']) && !empty($_SESSION['activity_login_url'])){
-						$this->redirect($_SESSION['activity_login_url']);
-					}else{
-						$this->redirect($this->createUrl("system/index"));
-					}
-					exit;
+		$model=new LoginForm;
+		if(isset($_POST['LoginForm']))
+		{
+			$model->attributes=$_POST['LoginForm'];
+			// validate user input and redirect to the previous page if valid
+			if($model->validate() && $model->login()){
+				$this->redirect('index');
+				$user = JoySystemUser::model()->findByPk($this->user->id);
+				$reqData	=	System::getGroupPowerDetail(array('groupid'=>$user['groupid'], 'datatype'=>'simple'));//用户登录检查
+				$powerinfo	=	$reqData['data'];
+				$actioninfo	=	array();
+				foreach($powerinfo as $item ){
+					$actioninfo = array_merge($actioninfo, array_keys($item['actions']));
 				}
-			} catch (Exception $e) {
+				$session_data				=	array();
+				$session_data['userid']		=	$this->user->id;
+				$session_data['email']		=	$user['email'];
+				$session_data['powerinfo']	=	$powerinfo;
+				$session_data['actioninfo']	=	$actioninfo;
+				$session_data['groupid']	=	$user['groupid'];
+				$session_data['openuser']	=	$user['openuser'];
+				$session_data['showmenu']	=	'';
+				$session_data['dtime']		=	date('Y-m-d H:i:s');
+
+				CfgAR::setMc(array('link'=>CACHE,'key'=>Admin_MEM_PIX.$this->getSessionId(),'data'=>$session_data,'time'=>MEM_USER_LOGIN_TIME));
 			}
-		}while(0);
-		$this->renderpartial('comm/login' , $ret_array);
+		}
+		// display the login form
+		$this->render('comm/login',array('model'=>$model));
 	}
 	/**
 	 * 账户登出

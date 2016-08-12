@@ -16,8 +16,8 @@ class ipip
     private static $fp     = NULL;
     private static $offset = NULL;
     private static $index  = NULL;
-    private static $position = '/ddata/nginx/www/ipipdat/mydata4vipday1.dat';
-//    private static $position = 'F:\phps\command\data/mydata4vipday1.dat';
+//    private static $position = '/ddata/nginx/www/ipipdat/mydata4vipday1.dat';
+    private static $position = 'G:/mydata4vipday1.dat';
     private static $cached = array();
 
     function getIP() {

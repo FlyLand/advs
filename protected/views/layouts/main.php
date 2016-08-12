@@ -8,27 +8,13 @@
 	<meta content="" name="author" />
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<link rel="icon" type="image/png" href="../assets/i/favicon.png">
 
-    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
-    <link rel="stylesheet" href="../assets/css/amazeui.min.css"/>
-  	<link rel="stylesheet" href="../assets/css/admin.css">
-    <link href="../css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../css/material-fullpalette.min.css" rel="stylesheet">
-    <link href="../css/new_login.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-    <script src="../assets/js/polyfill/rem.min.js"></script>
-    <script src="../assets/js/polyfill/respond.min.js"></script>
-    <script src="../assets/js/amazeui.legacy.js"></script>
-    <![endif]-->
-    <!--[if (gte IE 9)|!(IE)]><!-->
-    <!--[if (gte IE 9)|!(IE)]><!-->
-    <script src="../assets/js/amazeui.min.js"></script>
-    <!--<![endif]-->
-    <script src="../assets/js/app.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="<?php echo Yii::app()->params['cssPath'];?>css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="<?php echo Yii::app()->params['cssPath'];?>/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+
+    <link href="<?php echo Yii::app()->params['cssPath'];?>/css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->params['cssPath'];?>/css/style.min862f.css?v=4.1.0" rel="stylesheet">
 </head>
 <body>
 <header class="am-topbar admin-header">
@@ -40,10 +26,10 @@
   <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
 
     <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list" id="admin-header">
-        <li class="am-hide-sm-only"><a style="color: #0a0a0a" href="<?php echo $this->createUrl('system/message');?>"></span>
+        <!--<li class="am-hide-sm-only"><a style="color: #0a0a0a" href="<?php /*echo $this->createUrl('system/message');*/?>"></span>
                 <span class="am-icon-envelope-o"></span> Message <span class="am-badge am-badge-warning"><?php
-                    echo JoyMessageMgr::model()->count("sendid={$this->user['userid']} and status=0");
-                    ?></span></a></li>
+/*                    echo JoyMessageMgr::model()->count("sendid={$this->user['userid']} and status=0");
+                    */?></span></a></li>-->
       <li class="am-dropdown" data-am-dropdown>
         <a class="am-dropdown-toggle" style="color: #000;" data-am-dropdown-toggle href="javascript:;" id="admin">
           <span class="am-icon-users "></span> User <span class="am-icon-caret-down"></span>

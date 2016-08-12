@@ -30,7 +30,6 @@ abstract class Controller extends CController
 	public $user= array();
 	
 	function checkAction(){
-		
 		$extraurl	=	Yii::app()->request->getUrl();
 		$tmp		=	preg_match('/\/([^\/]*)([^\.]*)/', $extraurl, $match);
 		/*
@@ -87,7 +86,7 @@ abstract class Controller extends CController
 				exit;
 			}
 		}*/
-		
+
 	}
 	
 	
