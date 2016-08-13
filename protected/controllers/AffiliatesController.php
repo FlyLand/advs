@@ -136,8 +136,8 @@ class AffiliatesController extends Controller
     }
 
     public function actionEdit(){
-        if(!empty($_GET['id'])) {
-            $id = $_GET['id'];
+        if($id = Yii::app()->request->getParam('id')) {
+            $id = intval($id);
             $data['affiliate'] = JoySystemUser::model()->findByAttributes(array('id'=>$id));
             if(!empty($data['affiliate']['manager_userid'])){
                 $data['selected'] =     $data['affiliate']['manager_userid'];

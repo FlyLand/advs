@@ -8,9 +8,12 @@ class SystemController extends Controller{
 	/**
 	 * 构造函数，在New对象的时候自动调用
 	 */
-	public function __construct(){
-		parent::checkAction();
+	public $layout = '//layouts/nav';
+	public function __construct()
+	{
+		$this->checkAction();
 	}
+
 	/**
 	 * 后台首页
 	 * @author nicky
@@ -55,8 +58,7 @@ class SystemController extends Controller{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login()){
-				$this->redirect('index');
-				$user = JoySystemUser::model()->findByPk($this->user->id);
+				$user = JoySystemUser::model()->findByPk(Yii::app()->user->id);
 				$reqData	=	System::getGroupPowerDetail(array('groupid'=>$user['groupid'], 'datatype'=>'simple'));//用户登录检查
 				$powerinfo	=	$reqData['data'];
 				$actioninfo	=	array();
@@ -64,7 +66,7 @@ class SystemController extends Controller{
 					$actioninfo = array_merge($actioninfo, array_keys($item['actions']));
 				}
 				$session_data				=	array();
-				$session_data['userid']		=	$this->user->id;
+				$session_data['userid']		=	Yii::app()->user->id;
 				$session_data['email']		=	$user['email'];
 				$session_data['powerinfo']	=	$powerinfo;
 				$session_data['actioninfo']	=	$actioninfo;
@@ -72,8 +74,8 @@ class SystemController extends Controller{
 				$session_data['openuser']	=	$user['openuser'];
 				$session_data['showmenu']	=	'';
 				$session_data['dtime']		=	date('Y-m-d H:i:s');
-
-				CfgAR::setMc(array('link'=>CACHE,'key'=>Admin_MEM_PIX.$this->getSessionId(),'data'=>$session_data,'time'=>MEM_USER_LOGIN_TIME));
+				Yii::app()->user->setState('userSession',$session_data);
+				$this->redirect('index');
 			}
 		}
 		// display the login form

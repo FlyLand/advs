@@ -1,4 +1,4 @@
-<?php require_once dirname(dirname(__FILE__)) . '/sidebar.php';
+<?php
 $beneficiary = null;
 $bank_name = null;
 $bank_address = null;
@@ -8,256 +8,325 @@ $pee = null;
 $status = null;
 $edit = 'readonly';
 ?>
-<style>
-    div{
-        padding-top: 10px;
-    }
-    .am-form label{
-        color: red;
-    }
-</style>
-<div class="admin-content">
-    <div class="am-cf am-padding">
-        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">Site Edit</strong> </div>
-    </div>
-    <div class="am-g am-g-fixed">
-        <form id="doForm" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" method="post">
-            <div class="am-u-md-12">
-                <div class="am-panel am-panel-default">
-                    <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-4'}">Details<span class="am-icon-chevron-down am-fr" ></span></div>
-                    <div id="collapse-panel-4" class="am-panel-bd am-collapse am-in">
-                        <div class="am-g">
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Company:</div>
-                                <label>*</label>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="AdvertiserCompany" name="company" class="am-form-field" value="<?php echo $site['company']?>">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right"> Address 1:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="AdvertiserAddress1" name="address1" class="am-form-field" value="<?php echo $site['address']?>">
-                                </div>
-                            </div>
+<link href="<?php echo Yii::app()->params['cssPath']?>css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+<link href="<?php echo Yii::app()->params['cssPath']?>css/animate.min.css" rel="stylesheet">
+<link href="<?php echo Yii::app()->params['cssPath']?>css/style.min862f.css?v=4.1.0" rel="stylesheet">
+<script>
+    $(document).ready(function(){$(".dataTables-example").dataTable();var oTable=$("#editable").dataTable();oTable.$("td").editable("http://www.zi-han.net/theme/example_ajax.php",{"callback":function(sValue,y){var aPos=oTable.fnGetPosition(this);oTable.fnUpdate(sValue,aPos[0],aPos[1])},"submitdata":function(value,settings){return{"row_id":this.parentNode.getAttribute("id"),"column":oTable.fnGetPosition(this)[2]}},"width":"90%","height":"100%"})});function fnClickAddRow(){$("#editable").dataTable().fnAddData(["Custom row","New row","New row","New row","New row"])};
+</script>
 
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">E-mail Address:</div>
-                                <label>*</label>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="AdvertiserUserEmail" name="email"   class="am-form-field" value="<?php echo $site['email']?>">
-                                </div>
-                            </div>
-
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Country:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="AdvertiserCountry" name="country" class="am-form-field" value="<?php echo $site['country']?>">
-                                </div>
-                            </div>
-
-
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Phone:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="AdvertiserPhone" name="phone" class="am-form-field" value="<?php echo $site['phone']?>">
-                                </div>
-                            </div>
-
-                            <?php if(in_array($this->user['groupid'],$this->manager_group)){ ?>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Account Manager:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <select data-am-selected id="AdvertiserAccountManagerId" name="account_manager_id" >
-                                        <option value=""></option>
-                                        <?php if($business){ ?>
-                                            <?php foreach($business as $val=>$key){
-                                                $selected = '';
-                                                if($key['id'] == $site['manager_userid']){
-                                                    $selected = 'selected';
-                                                }
-                                                echo "<option $selected value='{$key['id']}'>{$key['id']}. '    ' . {$key['company']}</option>";
-                                                ?>
-                                            <?php }?>
-                                        <?php }?>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Account Status:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <select data-am-selected id="AdvertiserStatus" name="status" >
-                                        <option value="1">Active</option>
-                                        <option value="0">Pending</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <?php } ?>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-5 am-u-md-5 am-text-right">
-                                    <button type="button" onclick="editAff()" class="am-btn-m am-btn-primary">Save</button>
-                                </div>
-                            </div>
-                        </div>
+<div class="row">
+    <div class="col-sm-12">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>Site Edit</h5>
+            <div class="ibox-tools">
+                <a class="collapse-link">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                    <i class="fa fa-wrench"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="form_basic.html#">选项1</a>
+                    </li>
+                    <li><a href="form_basic.html#">选项2</a>
+                    </li>
+                </ul>
+                <a class="close-link">
+                    <i class="fa fa-times"></i>
+                </a>
+            </div>
+        </div>
+        <div class="ibox-content">
+            <form method="post" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Company</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="title" value="<?php echo $site['company']?>" class="form-control">
                     </div>
                 </div>
-            </div>
-        </form>
-
-        <form id="payment_form" action="<?php echo $this->createUrl('affiliates/payment',array('site_id'=>$site['id'],'action_type'=>'add','payment_type'=>0));?>" method="post">
-            <div class="am-u-md-12">
-                <div class="am-panel am-panel-default">
-                    <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-5'}">Payments<span class="am-icon-chevron-down am-fr" ></span></div>
-                    <div id="collapse-panel-5" class="am-panel-bd am-collapse am-in">
-                        <div class="am-g">
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Beneficiary:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <?php
-                                    if(!empty($payment)) {
-                                        $beneficiary = empty($payment['beneficiary']) ? '' : $payment['beneficiary'];
-                                        $bank_name = empty($payment['bank_name']) ? '' : $payment['bank_name'];
-                                        $bank_address = empty($payment['bank_address']) ? '' : $payment['bank_address'];
-                                        $bank_account = empty($payment['bank_account']) ? '' : $payment['bank_account'];
-                                        $swift_code = empty($payment['swift_code']) ? '' : $payment['swift_code'];
-                                        $pee = empty($payment['pee']) ? '' : $payment['pee'];
-                                        $status = empty($payment['status']) ? 0 : $payment['status'];
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Address 1:</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="company" value="<?php echo $site['address']?>" class="form-control">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">E-mail Address:</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="email" value="<?php echo  $site['email']?>" class="form-control">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Country:</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="country" value="<?php echo  $site['country']?>" class="form-control">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Phone:</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="phone" value="<?php echo  $site['phone']?>" class="form-control">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Account Manager:</label>
+                    <div class="col-sm-6">
+                        <select class="form-control m-b" name="account_manager_id">
+                            <option value=""></option>
+                            <?php if($business){ ?>
+                                <?php foreach($business as $val=>$key){
+                                    $selected = '';
+                                    if($key['id'] == $site['manager_userid']){
+                                        $selected = 'selected';
                                     }
-                                    if(in_array($this->user['groupid'],$this->manager_group)){
-                                        if(empty($status)){
-                                            $edit = '';
-                                        }
-                                    }else{
-                                        if(empty($status)){
-                                            $edit = '';
-                                        }
-                                    }
+                                    echo "<option $selected value='{$key['id']}'>{$key['id']}. '    ' . {$key['company']}</option>";
                                     ?>
-                                    <input type="text" id="beneficiary" <?php echo $edit?> name="beneficiary" class="am-form-field" value="<?php echo $beneficiary;?>">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Bank Name:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="bank_name" <?php echo $edit;?> name="bankname" class="am-form-field" value="<?php echo $bank_name;?>">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Bank Address:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="bank_address" <?php echo $edit;?> name="bankadd" class="am-form-field" value="<?php echo $bank_address?>">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Bank Account:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="bank_account" <?php echo $edit;?> name="bankacc" class="am-form-field" value="<?php echo $bank_account;?>">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Swift Code:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <input type="text" id="swift_code" <?php echo $edit;?> name="swift_code" class="am-form-field" value="<?php echo $swift_code;?>">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-2 am-u-md-2 am-text-right">Status:</div>
-                                <div  class="am-u-sm-6 am-u-end">
-                                    <?php if(in_array($this->user['groupid'],$this->manager_group)){
-                                        if(1 == $status){
-                                            echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
-                                        }elseif(2 == $status){
-                                            echo "<a class='am-badge am-badge-success'>Checked</a>";
-                                        }
-                                    }else{
-                                        if(1 == $status){
-                                            echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
-                                        }elseif(2 == $status){
-                                            echo "<a class='am-badge am-badge-success'>Checked</a>";
-                                        }
-                                    }?>
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-5 am-u-md-5 am-text-right">
-                                    <button type="button" onclick="editPayment()" class="am-btn-m am-btn-primary">Save</button>
-                                    <?php if(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,BUSINESS_GROUP_ID))){
-                                        if($status === 0){
-                                            echo "<button type=\"button\" onclick='authentication(0)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
-                                        }
-                                    }elseif(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,FINANCE_GROUP_ID))){
-                                        echo "<button type=\"button\" onclick='authentication(1)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
-                                    }?>
-                                </div>
-                            </div>
-                        </div>
+                                <?php }?>
+                            <?php }?>
+                        </select>
                     </div>
                 </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Account Status::</label>
+                    <div class="col-sm-6">
+                        <select class="form-control m-b" name="status">
+                            <option value="1">Active</option>
+                            <option value="0">Pending</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <button class="btn btn-primary" onclick="editAff()" type="button">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-sm-12">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>Site Edit</h5>
+            <div class="ibox-tools">
+                <a class="collapse-link">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                    <i class="fa fa-wrench"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="form_basic.html#">选项1</a>
+                    </li>
+                    <li><a href="form_basic.html#">选项2</a>
+                    </li>
+                </ul>
+                <a class="close-link">
+                    <i class="fa fa-times"></i>
+                </a>
             </div>
-        </form>
+        </div>
+        <div class="ibox-content">
+            <form method="post" action="<?php echo $this->createUrl('affiliates/payment',array('site_id'=>$site['id'],'action_type'=>'add','payment_type'=>0));?>" class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Beneficiary：</label>
+                    <div class="col-sm-6">
+                        <?php
+                        if(!empty($payment)) {
+                            $beneficiary = empty($payment['beneficiary']) ? '' : $payment['beneficiary'];
+                            $bank_name = empty($payment['bank_name']) ? '' : $payment['bank_name'];
+                            $bank_address = empty($payment['bank_address']) ? '' : $payment['bank_address'];
+                            $bank_account = empty($payment['bank_account']) ? '' : $payment['bank_account'];
+                            $swift_code = empty($payment['swift_code']) ? '' : $payment['swift_code'];
+                            $pee = empty($payment['pee']) ? '' : $payment['pee'];
+                            $status = empty($payment['status']) ? 0 : $payment['status'];
+                        }
+                        if(in_array($this->user['groupid'],$this->manager_group)){
+                            if(empty($status)){
+                                $edit = '';
+                            }
+                        }else{
+                            if(empty($status)){
+                                $edit = '';
+                            }
+                        }
+                        ?>
+                        <input type="text" id="beneficiary" <?php echo $edit?> name="beneficiary" class="form-control" value="<?php echo $beneficiary;?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Bank Name:</label>
+                    <div class="col-sm-6">
+                        <input type="text" id="bank_name" <?php echo $edit;?> name="bankname" class="form-control" value="<?php echo $bank_name;?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Bank Address:</label>
+                    <div class="col-sm-6">
+                        <input type="text" id="bank_address" <?php echo $edit;?> name="bankadd" class="form-control" value="<?php echo $bank_address?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Bank Account:</label>
+                    <div class="col-sm-6">
+                        <input type="text" id="bank_account" <?php echo $edit;?> name="bankacc" class="form-control" value="<?php echo $bank_account;?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Swift Code:</label>
+                    <div class="col-sm-6">
+                        <input type="text" id="swift_code" <?php echo $edit;?> name="swift_code" class="form-control" value="<?php echo $swift_code;?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Status:</label>
+                    <div class="col-sm-6">
+                        <?php if(in_array($this->user['groupid'],$this->manager_group)){
+                            if(1 == $status){
+                                echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
+                            }elseif(2 == $status){
+                                echo "<a class='am-badge am-badge-success'>Checked</a>";
+                            }
+                        }else{
+                            if(1 == $status){
+                                echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
+                            }elseif(2 == $status){
+                                echo "<a class='am-badge am-badge-success'>Checked</a>";
+                            }
+                        }?>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <button class="btn btn-primary" onclick="editPayment()" type="button">Save</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <?php if(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,BUSINESS_GROUP_ID))){
+                            if($status === 0){
+                                echo "<button type=\"button\" onclick='authentication(0)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
+                            }
+                        }elseif(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,FINANCE_GROUP_ID))){
+                            echo "<button type=\"button\" onclick='authentication(1)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
+                        }?>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
-        <?php if(in_array($this->user['groupid'],$this->manager_group)){ ?>
-        <form id="addAff" action="<?php echo $this->createUrl('affiliates/createaff');?>" method="post">
-            <div class="am-u-md-12">
-                <div class="am-panel am-panel-default">
-                    <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-2'}">Add Affiliates<span class="am-icon-chevron-down am-fr" ></span></div>
-                    <div id="collapse-panel-2" class="am-panel-bd am-collapse am-in">
-                        <div id="collapse-panel-2" class="am-panel-bd am-collapse am-in">
-                            <div class="am-g">
-                                <div class="am-u-sm-12">
-                                    <div class="am-u-sm-5 am-u-md-5 am-text-right">Title:</div>
-                                    <div  class="element am-u-sm-3 am-u-end">
-                                        <input type="text"  name="title" id="title" class="am-form-field" value="">
-                                        <input type="hidden" name="siteid" value="<?php echo $site['id'];?>">
-                                    </div>
-                                </div>
-
-                                <div class="am-u-sm-12">
-                                    <div class="am-u-sm-5 am-u-md-5 am-text-right">
-                                        <button type="button" onclick="addAff()" class="am-btn-m am-btn-primary">Create</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Site Edit</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                        <i class="fa fa-wrench"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="form_basic.html#">选项1</a>
+                        </li>
+                        <li><a href="form_basic.html#">选项2</a>
+                        </li>
+                    </ul>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
                 </div>
             </div>
-        </form>
+            <div class="ibox-content">
+                <form method="post" action="<?php echo $this->createUrl('affiliates/createaff');?>" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Title：</label>
+                        <div class="col-sm-6">
+                            <input type="text"  name="title" id="title" class="form-control" value="">
+                            <input type="hidden" name="siteid" value="<?php echo $site['id'];?>">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <button class="btn btn-primary" onclick="addAff()" type="button">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
-        <form id="addRel" action="<?php echo $this->createUrl('site/addrel',array('id'=>$site['id']));?>" method="post">
-        <div class="am-u-md-12">
-                <div class="am-panel am-panel-default">
-                    <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-3'}">Rel<span class="am-icon-chevron-down am-fr" ></span></div>
-                    <div id="collapse-panel-3" class="am-panel-bd am-collapse am-in">
-                        <div class="am-g">
-                            <table class="am-table am-table-striped am-table-hover">
-                                <thead>
-                                <tr>
-                                    <td>Affiliate Id</td>
-                                    <td>Title</td>
-                                    <td>Operation</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <?php if(!empty($affids)){
-                                    $aff_arr = explode(',',$affids);
-                                    foreach($aff_arr as $aff){
-                                        $user = JoySystemUser::model()->findByPk($aff);
-                                        echo "<tr>";
-                                        echo "<td>$aff</td>";
-                                        if(!empty($user)) {
-                                            echo "<td>{$user['title']}</td>";
-                                        }
-                                        echo "<td><button type='button' class='am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only' onclick='dl_rel({$site['id']},$aff)'>Delete</td>";
-                                        echo "</tr>";
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Site Edit</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                        <i class="fa fa-wrench"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="form_basic.html#">选项1</a>
+                        </li>
+                        <li><a href="form_basic.html#">选项2</a>
+                        </li>
+                    </ul>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <form method="post" action="<?php echo $this->createUrl('site/addrel',array('id'=>$site['id']));?>" class="form-horizontal">
+                    <div class="form-group">
+                        <table class="table table-striped table-bordered table-hover dataTables-example">
+                        <thead>
+                            <tr>
+                                <td>Affiliate Id</td>
+                                <td>Title</td>
+                                <td>Operation</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php if(!empty($affids)){
+                                $aff_arr = explode(',',$affids);
+                                foreach($aff_arr as $aff){
+                                    $user = JoySystemUser::model()->findByPk($aff);
+                                    echo "<tr>";
+                                    echo "<td>$aff</td>";
+                                    if(!empty($user)) {
+                                        echo "<td>{$user['title']}</td>";
                                     }
-                                }?>
-                                </tbody>
-                            </table>
-                             <div class="am-u-sm-12">
-                                <div class="am-u-sm-5 am-u-md-5 am-text-right">Add Relevance :</div>
-                                <div  class="am-u-sm-3 am-u-end">
-                                    <select id="affiliates" name="affiliates[]" multiple data-am-selected="{btnWidth: 300, btnSize: 'sm', btnStyle: 'secondary',maxHeight: 200,searchBox: 1}"  style="display: none;padding-top: 20px">
-                                        <?php if(!empty($affiliates)){
+                                    echo "<td><button type='button' class='am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only' onclick='dl_rel({$site['id']},$aff)'>Delete</td>";
+                                    echo "</tr>";
+                                }
+                            }?>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <select name="affiliates[]" class="form-control m-b" >
+                            <?php if(!empty($affiliates)){
                                 foreach($affiliates as $affiliate){
                                     if(!empty($affiliate)){
                                         $checked = '';
@@ -266,55 +335,9 @@ $edit = 'readonly';
                                     }
                                 }
                             }?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="am-u-sm-12">
-                        <div class="am-u-sm-5 am-u-md-5 am-text-right">
-                            <button type="button" onclick="addRel()" class="am-btn-m am-btn-primary">Save</button>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                </div>
+                        </select>
+                </form>
             </div>
-        </form>
-        <?php }?>
-
-        <form id="change_pd" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" method="post">
-            <div class="am-u-md-12">
-                <div class="am-panel am-panel-default">
-                    <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-1'}">Setting<span class="am-icon-chevron-down am-fr" ></span></div>
-                    <div id="collapse-panel-1" class="am-panel-bd am-collapse am-in">
-                        <div class="am-g">
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-5 am-u-md-5 am-text-right">Password:</div>
-                                <label>*</label>
-                                <div  class="am-u-sm-3 am-u-end">
-                                    <input type="text" id="ad_password" name="password"  class="am-form-field" value="">
-                                </div>
-                            </div>
-                            <div class="am-u-sm-12">
-                                <div class="am-u-sm-5 am-u-md-5 am-text-right">
-                                    <button type="button" onclick="editPassword()" class="am-btn-m am-btn-primary">Save</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-
-<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
-    <div class="am-modal-dialog">
-        <div class="am-modal-hd">OFFER</div>
-        <div class="am-modal-bd" id="alertContent">
-
-        </div>
-        <div class="am-modal-footer">
-            <span class="am-modal-btn">OK</span>
         </div>
     </div>
 </div>

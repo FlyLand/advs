@@ -17,6 +17,17 @@ return array(
         'channel'=>'{affid}',
         'subid'=>'{subid}',
     ),
+    'systemGroup'=> [
+        1=>'Super Manager',
+        2=>'Manager',
+        3=>'Business',
+        4=>'Advertiser',
+        5=>'Affiliate',
+        6=>'AM',
+        7=>'Site',
+        8=>'Finance',
+
+    ],
     'ADMIN_USER_ID'=>1,
     'ADMIN_GROUP_ID'=>1,
     'MANAGER_GROUP_ID'=>2,

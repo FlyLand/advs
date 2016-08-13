@@ -10,6 +10,7 @@ class IndexController extends Controller
 	function __construct(){
 		parent::checkAction();
 	}
+    public $layout = '//layouts/main';
 
 	/**
 	 * 首页
