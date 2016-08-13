@@ -1,102 +1,74 @@
-<?php require_once dirname(dirname(__FILE__)) . '/sidebar.php';?>
-<style>
-    .pagination {
-        display: inline-block;
-        padding-left: 0;
-        margin: 0;
-        border-radius: 4px;
-        font-size:14px;
-    }
-    .pagination>li {
-        display: inline;
-    }
-    .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-        z-index: 2;
-        color: #fff;
-        cursor: pointer;
-        background-color: #428bca;
-        border-color: #428bca;
-    }
-    .pagination>li>a, .pagination>li>span {
-        position: relative;
-        float: left;
-        padding: 2px 10px;
-        margin-left: -1px;
-        line-height: 1.428571429;
-        text-decoration: none;
-        background-color: #fff;
-        border: 1px solid #ddd;
-    }
-</style>
-<!-- content start -->
-<div class="admin-content">
-    <div class="am-cf am-padding">
-        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">Advertiser</strong> </div>
-    </div>
-    <div class="am-g">
-        <div class="am-u-sm-12 am-u-md-6">
-            <div class="am-btn-toolbar">
-                <div class="am-btn-group am-btn-group-xs">
-                    <button type="button" class="am-btn am-btn-default" onclick="location.href='<?php echo $this->createUrl('advertiser/create');?>';return false;"><span class="am-icon-plus"></span> Add Advertiser</button>
-                    <!--                     <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> É¾³ý</button>-->
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="am-panel am-panel-default">
-        <div class="am-panel-bd">
-            <table class="am-table am-table-striped am-table-hover" id="dbs">
-                <thead>
-                    <tr>
-                        <th class="minth">id</th>
-                        <th class="minth">Advertiser</th>
-                        <th class="minth2">Status</th>
-                        <th class="minth2">Affiliates</th>
-                        <th class="minth2">Conversions</th>
-                        <th class="maxth">Cost</th>
-                        <th class="timeth">Revenue</th>
-                        <th class="minth">Profit</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <?php
-                foreach ($advertisers as $advertiser){?>
-                    <tr>
-                        <td><?php echo $advertiser['id']?></td>
-                        <td><a href="<?php echo $this->createUrl('advertiser/edit',array('id'=>$advertiser['id']))?>"><?php echo $advertiser['company']?></a></td>
-                        <td><?php echo (1 == $advertiser['status'])? 'active': 'pending';?></td>
-                        <td><?php echo isset($advertiser['aff'])?$advertiser['aff']:0?></td>
-                        <td><?php echo  isset($advertiser['conversions'])?$advertiser['conversions']:0?></td>
-                        <td>$<?php echo $pay_num = isset($advertiser['pay_num'])?$advertiser['pay_num']:0?></td>
-                        <td>$<?php echo $re_num = isset($advertiser['re_num'])?$advertiser['re_num']:0?></td>
-                        <td>$<?php echo $re_num  -   $pay_num ?></td>
-                        <td>
-                            <div class="am-btn-toolbar">
-                                <div class="am-btn-group am-btn-group-xs">
-                                    <a href="<?php echo $this->createUrl('advertiser/edit',array('id'=>$advertiser['id']))?>" class="am-btn am-btn-default am-btn-xs am-text-secondary" ><span class="am-icon-pencil-square-o"></span> Edit</a>
-                                    <button onclick="deleteuser(<?php echo $advertiser['id'];?>)" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" ><span class="am-icon-trash-o"></span> Delete</button>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                <?php }?>
+<link href="<?php echo Yii::app()->params['cssPath']?>css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+<link href="<?php echo Yii::app()->params['cssPath']?>css/animate.min.css" rel="stylesheet">
+<link href="<?php echo Yii::app()->params['cssPath']?>css/style.min862f.css?v=4.1.0" rel="stylesheet">
+<script>
+    $(document).ready(function(){$(".dataTables-example").dataTable();var oTable=$("#editable").dataTable();oTable.$("td").editable("http://www.zi-han.net/theme/example_ajax.php",{"callback":function(sValue,y){var aPos=oTable.fnGetPosition(this);oTable.fnUpdate(sValue,aPos[0],aPos[1])},"submitdata":function(value,settings){return{"row_id":this.parentNode.getAttribute("id"),"column":oTable.fnGetPosition(this)[2]}},"width":"90%","height":"100%"})});function fnClickAddRow(){$("#editable").dataTable().fnAddData(["Custom row","New row","New row","New row","New row"])};
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
 
-                </tbody>
-            </table>
-            <div class="am-cf"> 共 <?php echo $count?> 条记录
-                <div class="am-fr">
-                    <?php echo isset($fenyecode) ? $fenyecode : ''; ?>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>基本 <small>分类，查找</small></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="table_data_tables.html#">
+                        <i class="fa fa-wrench"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
                 </div>
             </div>
-            <hr>
+            <div class="ibox-content">
+                <table class="table table-striped table-bordered table-hover dataTables-example">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Advertiser</th>
+                        <th>Status</th>
+                        <th>Affiliates</th>
+                        <th>Conversions</th>
+                        <th>Cost</th>
+                        <th>Revenue</th>
+                        <th>Profit</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach ($advertisers as $advertiser){?>
+                        <tr class="gradeX">
+                            <td><?php echo $advertiser['id']?></td>
+                            <td><a href="<?php echo $this->createUrl('advertiser/edit',array('id'=>$advertiser['id']))?>"><?php echo $advertiser['company']?></a></td>
+                            <td><?php echo (1 == $advertiser['status'])? 'active': 'pending';?></td>
+                            <td><?php echo isset($advertiser['aff'])?$advertiser['aff']:0?></td>
+                            <td><?php echo  isset($advertiser['conversions'])?$advertiser['conversions']:0?></td>
+                            <td>$<?php echo $pay_num = isset($advertiser['pay_num'])?$advertiser['pay_num']:0?></td>
+                            <td>$<?php echo $re_num = isset($advertiser['re_num'])?$advertiser['re_num']:0?></td>
+                            <td>$<?php echo $re_num  -   $pay_num ?></td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <a href="<?php echo $this->createUrl('advertiser/edit',array('id'=>$advertiser['id']))?>" class="am-btn am-btn-default am-btn-xs am-text-secondary" ><span class="am-icon-pencil-square-o"></span> Edit</a>
+                                        <button onclick="deleteuser(<?php echo $advertiser['id'];?>)" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" ><span class="am-icon-trash-o"></span> Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    <?php }?>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
+</div>
 <script>
     var deleteuser  =   function(id){
         if(confirm('are you sure to delete this one?')){
             location.href   =   '<?php echo $this->createUrl('advertiser/update',array('type'=>'delete'));?>&id='+id;
         }
     }
-
 </script>

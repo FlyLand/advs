@@ -1,169 +1,128 @@
-<?php require_once dirname(dirname(__FILE__)) . '/sidebar.php';?>
-<style>
-    .am-form div{
-        padding-top: 10px;
-    }
-    .am-form label{
-        color: red;
-    }
-</style>
-<!-- content start -->
-<div class="admin-content">
-    <div class="am-cf am-padding">
-        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">Create Advertiser</strong> </div>
-    </div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Affiliate Edit</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                        <i class="fa fa-wrench"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="form_basic.html#">选项1</a>
+                        </li>
+                        <li><a href="form_basic.html#">选项2</a>
+                        </li>
+                    </ul>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <form method="post" action="<?php echo $this->createUrl('advertiser/create');?>" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Company</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="company" class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Address1:</label>
+                        <div class="col-sm-6">
+                            <input type="text"  name="address1" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Address2:</label>
+                        <div class="col-sm-6">
+                            <input type="text"  name="address2" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">City:</label>
+                        <div class="col-sm-6">
+                            <input type="text"  name="city" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Country:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="AdvertiserCountry" name="country" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">State:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="AdvertiserState" name="state" class="form-control">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Zipcode:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="AdvertiserZipcode" name="zipcode" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Phone:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="AdvertiserPhone" name="phone" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">First Name:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="AdvertiserUserFirstName" name="first_name" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Last Name:</label>
+                        <div class="col-sm-6">
+                            <input type="text"  name="last_name" class="form-control">
+                        </div>
+                    </div>
 
-    <am-tabs am-margin>
-    <form class="am-form" action="<?php echo $this->createUrl('advertiser/create');?>" method="post" id="doForm">
-        <h2>Details</h2>
-        <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Company:</div>
-            <label>*</label>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserCompany" name="company" class="am-input-sm">
-                <div class="am-hide-sm-only am-u-md-6"></div>
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right"> Address 1:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserAddress1" name="address1" class="am-form-field">
-            </div>
-        </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Email:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="AdvertiserUserEmail" name="email" class="form-control">
+                        </div>
+                    </div>
 
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Address 2:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserAddress2" name="address2" class="am-form-field">
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Account Manager:</label>
+                        <div class="col-sm-6">
+                            <select data-am-selected  name="account_manager_id" class="form-control m-b">
+                                <option value=""></option>
+                                <?php if($business){ ?>
+                                    <?php foreach($business as $val=>$key){?>
+                                        <option value="<?php echo $key['id']?>"><?php echo $key['company'];?></option>
+                                    <?php }?>
+                                <?php }?>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <button class="btn btn-primary" onclick="addAdvertiser()" type="button">Save</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
-
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">City:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserCity" name="city" class="am-form-field">
-            </div>
-        </div>
-
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Country:</div>
-            <div  class="element am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserCountry" name="country" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">State:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserState" name="state" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Zipcode:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserZipcode" name="zipcode" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Phone:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserPhone" name="phone" class="am-form-field">
-            </div>
-        </div>
-
-        <h2>Add User</h2>
-        <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">First Name:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserUserFirstName" name="first_name" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Last Name:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserUserLastName" name="last_name" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Title:</div>
-            <label>*</label>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserUserTitle" name="title" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">E-mail Address:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserUserEmail" name="email" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Password:</div>
-            <label>*</label>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="password" id="AdvertiserPassword" name="password" class="am-form-field" placeholder="Password">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Confirm Password:</div>
-            <label>*</label>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="password" id="AdvertiserPasswordConfirmation" name="password_confirmation" class="am-form-field" placeholder="Password">
-            </div>
-        </div>
-
-        <h2>Settings</h2>
-        <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Postback:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <input type="text" id="AdvertiserBackCode" name="back_code" class="am-form-field">
-            </div>
-        </div>
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Account Manager:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <select data-am-selected id="AdvertiserAccountManagerId" name="account_manager_id" >
-                    <option value=""></option>
-                    <?php if($business){ ?>
-                        <?php foreach($business as $val=>$key){ ?>
-                            <option value="<?php echo $key['id']?>"><?php echo $key['company'];?></option>
-                        <?php } ?>
-                    <?php } ?>
-                </select>
-            </div>
-        </div>
-
-        <div class="am-u-sm-12">
-            <div class="am-u-sm-4 am-u-md-2 am-text-right">Account Status:</div>
-            <div  class="am-u-sm-3 am-u-end">
-                <select data-am-selected id="AdvertiserStatus" name="status" >
-                    <option value="1">Active</option>
-                    <option value="0">Pending</option>
-                </select>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>        <br>
-        <br>
-        <br>
-        <br>
-        <div style="padding-top: 150px;padding-left: 100px;display: block;" class="am-vertical-align-middle">
-            <button type="button" onclick="addAdvertiser()" class="am-btn am-btn-primary">Save</button>
-        </div>
-    </form>
-    </div>
-</am-tabs>
-<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
-    <div class="am-modal-dialog">
-        <div class="am-modal-hd">OFFER</div>
-        <div class="am-modal-bd" id="alertContent">
-
-        </div>
-        <div class="am-modal-footer">
-            <span class="am-modal-btn">OK</span>
         </div>
     </div>
 </div>
