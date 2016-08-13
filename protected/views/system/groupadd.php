@@ -1,6 +1,3 @@
-<?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
-?>
 <script type="text/javascript">
 function check(){
 	var dom_name	=	document.getElementById('Name');
@@ -23,53 +20,68 @@ function check(){
 	return true;
 }
 </script>
-<!-- content start -->
-<div class="admin-content">
-  	<div class="am-cf am-padding">
-		<div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">添加用户组</strong> </div>
-  	</div>
-  	<form action="<?php echo $this->createUrl('system/groupadd');?>" method="post" onsubmit="return check();">
-  		<div class="am-tabs am-margin" data-am-tabs>
-				<ul class="am-tabs-nav am-nav am-nav-tabs">
-					<li class="am-active"><a href="#tab1">用户组信息</a></li>
-				</ul>
-				<div class="am-tabs-bd">
-					<div class="am-tab-panel am-fade am-in am-active" id="tab1">
-					   <div class="am-g am-margin-top">
-							<div class="am-u-sm-4 am-u-md-2 am-text-right">用户组名</div>
-							<div class="am-u-sm-8 am-u-md-4">
-								<input type="hidden" name="r" id="r" value="system/groupadd" />
-								<input type="text" name="Name" id='Name' size="30" maxlength="20" value='' ><span class='highlight'>*</span>
-							</div>
-							<div class="am-hide-sm-only am-u-md-6">&nbsp;&nbsp;</div>
-					 	</div>
-					 	<div class="am-g am-margin-top">
-							<div class="am-u-sm-4 am-u-md-2 am-text-right">当前状态</div>
-							<div class="am-u-sm-8 am-u-md-4">
-								<select type="text" name="Status" id="Status"><option value='-'>--请选择--</option><option value='1'>正常</option><option value='0'>冻结</option></select>
-								<span class='highlight'>*</span>
-							</div>
-							<div class="am-hide-sm-only am-u-md-6">&nbsp;&nbsp;</div>
-					 	</div>
-					 	<div class="am-g am-margin-top">
-							<div class="am-u-sm-4 am-u-md-2 am-text-right">&nbsp;</div>
-							<div class="am-u-sm-8 am-u-md-4">
-								<input type="submit" value="添加用户组" class="am-btn am-btn-primary am-btn-xs">
-							</div>
-							<div class="am-hide-sm-only am-u-md-6">&nbsp;&nbsp;</div>
-					 	</div>
-					 </div>
+
+<div class="row">
+	<div class="col-sm-12">
+		<div class="ibox float-e-margins">
+			<div class="ibox-title">
+				<h5>Affiliate Edit</h5>
+				<div class="ibox-tools">
+					<a class="collapse-link">
+						<i class="fa fa-chevron-up"></i>
+					</a>
+					<a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+						<i class="fa fa-wrench"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-user">
+						<li><a href="form_basic.html#">选项1</a>
+						</li>
+						<li><a href="form_basic.html#">选项2</a>
+						</li>
+					</ul>
+					<a class="close-link">
+						<i class="fa fa-times"></i>
+					</a>
 				</div>
-		  </div>	
-	</form>
-	<?php
-		if( !empty($msg) ){
-			echo '<script>alert("', $msg , '");';
-			if( 0 == $ret ){
-				echo 'location.href="'.$this->createUrl('system/grouplist').'";';
-				
-			}
-			echo '</script>';
-		}
-	?>
+			</div>
+			<div class="ibox-content">
+				<form method="post" action="<?php echo $this->createUrl('system/groupadd');?>" class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Group Name:</label>
+						<div class="col-sm-6">
+							<input type="hidden" name="r" id="r" value="system/groupadd" />
+							<input type="text" name="Name" id='Name' class="form-control" value='' ><span class='highlight'>*</span>
+						</div>
+					</div>
+					<div class="hr-line-dashed"></div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Status:</label>
+						<div class="col-sm-6">
+							<select  name="Status" id="Status"><option value='-'>--请选择--</option><option value='1'>正常</option><option value='0'>冻结</option></select>
+							<span class='highlight'>*</span>
+						</div>
+					</div>
+					<div class="hr-line-dashed"></div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Status:</label>
+						<div class="col-sm-6">
+							<input type="submit" value="Add" class="am-btn am-btn-primary am-btn-xs">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
+<script>
+<?php
+	if( !empty($msg) ){
+		echo '<script>alert("', $msg , '");';
+		if( 0 == $ret ){
+			echo 'location.href="'.$this->createUrl('system/grouplist').'";';
+
+		}
+		echo '</script>';
+	}
+?>
+</script>

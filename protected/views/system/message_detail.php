@@ -1,5 +1,5 @@
 <?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <link rel="stylesheet" type="text/css" href="assets/css/simditor/simditor.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/simditor/simditor-checklist.css" />

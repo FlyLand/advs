@@ -26,8 +26,8 @@ return array(
         6=>'AM',
         7=>'Site',
         8=>'Finance',
-
     ],
+
     'ADMIN_USER_ID'=>1,
     'ADMIN_GROUP_ID'=>1,
     'MANAGER_GROUP_ID'=>2,

@@ -5,7 +5,7 @@
  * Date: 2016/2/26
  * Time: 17:52
  */
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <script type="text/javascript" src="./assets/js/pdfobject.js"></script>
 <link rel="stylesheet" href="assets/css/amazeui.datatables.css"/>

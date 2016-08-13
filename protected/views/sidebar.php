@@ -2,8 +2,7 @@
 $nav_color_arr	=	array('admin-icon-green', 'admin-icon-blue', 'admin-icon-red', 'admin-icon-yellow');
 $curr_key	=	'';
 //计算当前选择大栏
-$userSession	=	Yii::app()->user->getState('userSession');
-$powerinfo = $userSession['powerinfo'];
+$powerinfo = $this->user['powerinfo'];
 //读取offer是否为推荐
 //$offers_top = joy_offers::model()->findAllByAttributes(array('recommend'=>1));
 ?>
@@ -18,7 +17,7 @@ $powerinfo = $userSession['powerinfo'];
 						<span><img alt="image" class="img-circle" src="<?php echo Yii::app()->params['cssPath']?>img/profile_small.jpg" /></span>
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 							<span class="clear"><span class="block m-t-xs"><strong class="font-bold"><?php echo Yii::app()->user->name;?></strong></span>
-							<span class="text-muted text-xs block"><?php echo Yii::app()->params['systemGroup'][$userSession['groupid']]?><b class="caret"></b></span></span>
+							<span class="text-muted text-xs block"><?php echo Yii::app()->params['systemGroup'][$this->user['groupid']]?><b class="caret"></b></span></span>
 						</a>
 						<ul class="dropdown-menu animated fadeInRight m-t-xs">
 							<li><a class="J_menuItem" href="form_avatar.html">修改头像</a>
@@ -179,7 +178,7 @@ $powerinfo = $userSession['powerinfo'];
 					</li>
 				</ul>
 			</div>
-			<a href="login.html" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
+			<a href="<?php echo Yii::app()->createUrl('system/logout');?>" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
 		</div>
 		<div class="row J_mainContent" id="content-main">
 			<iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="index_v148b2.html?v=4.0" frameborder="0" data-id="index_v1.html" seamless></iframe>

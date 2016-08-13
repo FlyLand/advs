@@ -3,7 +3,7 @@
  * pixelsURl测试页面
  * 
  */
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 
 ?>
 <div class="admin-content">

@@ -5,7 +5,7 @@
  * Date: 2016/2/24
  * Time: 15:09
  */
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <link rel="stylesheet" href="assets/css/amazeui.datatables.css"/>
 <script src="assets/js/amazeui.datatables.min.js"></script>

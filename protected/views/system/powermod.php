@@ -1,5 +1,5 @@
 <?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 
 $powerconf	=	require BASE_DIR.'/protected/config/powerconf.php';
 ?>

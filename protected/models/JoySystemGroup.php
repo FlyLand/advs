@@ -94,4 +94,13 @@ class JoySystemGroup extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+	public static function getGroupArray(){
+	    $group = JoySystemGroup::model()->findAll();
+        $arr = array();
+        foreach ($group as $item){
+            $arr[$item['id']] = $item['name'];
+        }
+        return $arr;
+    }
 }

@@ -1,12 +1,12 @@
 <?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
-
 <!-- content start -->
 	<div class="admin-content">
 		<div class="am-cf am-padding">
 			<div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">User Info</strong> </div>
 		</div>
+
 		<form class="am-form">
 			<div class="am-tabs am-margin" data-am-tabs>
 				<ul class="am-tabs-nav am-nav am-nav-tabs">

@@ -48,7 +48,7 @@
                     <?php
                     if(!empty($affiliates)){
                         foreach ($affiliates as $affiliate){ ?>
-                            <tr id="<?php echo $affiliate['id']?>">
+                            <tr id="<?php echo $affiliate['id']?>" class="gradeX">
                                 <td><a href="<?php echo $this->createUrl('affiliates/edit',array('id'=>$affiliate['id']))?>"><?php echo $affiliate['id']?></a></td>
                                 <td><a href="<?php echo $this->createUrl('report/affreport',array('id'=>$affiliate['id']))?>"><?php echo $affiliate['title']?></a></td>
                                 <td><?php echo (1 == $affiliate['status']) ? 'active': 'pending';?></td>

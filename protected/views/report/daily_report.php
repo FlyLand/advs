@@ -1,8 +1,8 @@
 <?php
 /**
- * Ôö¼Óoffer
+ * ï¿½ï¿½ï¿½ï¿½offer
  */
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <script src="assets/js/ui/jquery.ui.core.js"></script>
 <script src="assets/js/ui/jquery.ui.widget.js"></script>
@@ -356,7 +356,7 @@ include_once dirname(dirname(__FILE__)).'/sidebar.php';
             <div class="">
                 <p> Start and End dates:</p>
                 <div class="am-alert am-alert-danger" id="my-alert" style="display: none">
-                <p>The end date should not before the start date£¡</p>
+                <p>The end date should not before the start dateï¿½ï¿½</p>
             </div>
             <div class="am-g">
                 <div class="am-u-sm-2 text-align-right">
@@ -652,12 +652,12 @@ include_once dirname(dirname(__FILE__)).'/sidebar.php';
 //            multipleSeparator: "",
 //            scroll: true,
 //            scrollHeight: 300
-        //»ñÈ¡·þÎñÆ÷Êý¾ÝµÄurl
+        //ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½url
 //            serviceUrl: '<?php //echo $this->createUrl('report/getauto');?>//',
-//            //´«¸ø·þÎñÆ÷¹Ø¼ü´ÊµÄ²ÎÊýÃû,ÀàËÆÓÚÕâ¸öajaxÇëÇó$.post(url, {'filter' : keywords} ,function(){})ÖÐµÄfilter
+//            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ÊµÄ²ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ajaxï¿½ï¿½ï¿½ï¿½$.post(url, {'filter' : keywords} ,function(){})ï¿½Ðµï¿½filter
 //            paramName : 'filter',
 //            transformResult: function(response) {
-//                //½âÎö·þÎñÆ÷´«¹ýÀ´µÄjson×Ö·û´®
+//                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jsonï¿½Ö·ï¿½ï¿½ï¿½
 //                var obj = $.parseJSON(response);
 //                return {
 //                    suggestions: $.map(obj.list, function(dataItem) {
@@ -665,7 +665,7 @@ include_once dirname(dirname(__FILE__)).'/sidebar.php';
 //                    })
 //                };
 //            },
-//            //Ñ¡ÖÐÖµºóÊý¾Ý´¦Àí
+//            //Ñ¡ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½ï¿½
 //            onSelect: function (suggestion) {
 //                beneficiaryCode=suggestion.data;
 //                beneficiary=suggestion.value;

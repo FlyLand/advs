@@ -28,7 +28,7 @@
     }
 </style>
 <?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <div class="admin-content">
     <div class="am-cf am-padding">

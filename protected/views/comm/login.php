@@ -47,7 +47,7 @@
 				<?php echo $form->error($model,'email')?>
 			</div>
 			<div class="form-group">
-				<?php echo $form->textField($model,'password',array('class'=>'form-control'),'required')?>
+				<?php echo $form->passwordField($model,'password',array('class'=>'form-control'),'required')?>
 				<?php echo $form->error($model,'email')?>
 			</div>
 

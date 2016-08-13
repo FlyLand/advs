@@ -1,8 +1,8 @@
 <?php
 //================以下是系统日志文件目录=====================
-define('DIRLOGS', 'G:\php_web\myservice\advs\logs');
+define('DIRLOGS', 'D:\land.zhang\workspace\php_code\advs\logs/');
 
-define('BASE_DIR', 'G:\php_web\myservice\advs');
+define('BASE_DIR', 'D:\land.zhang\workspace\php_code\advs');
 
 define('W_APP_NAME', 'New hasoffer');
 

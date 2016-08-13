@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 $readonly = '';
 $email_read_only = '';
 if($this->user['groupid'] == AFF_GROUP_ID){

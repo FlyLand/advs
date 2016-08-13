@@ -2,7 +2,7 @@
 /**
  * pixels管理列表
  */
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <style>
 	.pagination {

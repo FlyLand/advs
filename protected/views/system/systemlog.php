@@ -36,7 +36,7 @@ tr{
 }
 </style>
 <?php
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 ?>
 <script charset="utf-8" src="<?php echo Yii::app()->request->baseUrl; ?>/js/DatePicker/WdatePicker.js" type="text/javascript"></script>
 <!-- content start -->

@@ -8,7 +8,6 @@ class SystemController extends Controller{
 	/**
 	 * 构造函数，在New对象的时候自动调用
 	 */
-	public $layout = '//layouts/nav';
 	public function __construct()
 	{
 		$this->checkAction();
@@ -75,7 +74,7 @@ class SystemController extends Controller{
 				$session_data['showmenu']	=	'';
 				$session_data['dtime']		=	date('Y-m-d H:i:s');
 				Yii::app()->user->setState('userSession',$session_data);
-				$this->redirect('index');
+				$this->redirect(Yii::app()->createUrl('index/index'));
 			}
 		}
 		// display the login form
@@ -85,7 +84,7 @@ class SystemController extends Controller{
 	 * 账户登出
 	 */
 	function actionLogout(){
-		CfgAR::delMc(array('link'=>CACHE,'key'=>Admin_MEM_PIX.$this->getSessionId()));
+		Yii::app()->user->logout();
 		header('Location:'.$this->createUrl('system/index'));
 	}
 	/**

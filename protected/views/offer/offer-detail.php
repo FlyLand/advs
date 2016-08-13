@@ -2,7 +2,7 @@
 /**
  * 增加offer
  */
-include_once dirname(dirname(__FILE__)).'/sidebar.php';
+include_once dirname(dirname(__FILE__)) . '/sidebar.php';
 $offerId = Yii::app()->request->getParam('offer_id');
 ?>
 <style>

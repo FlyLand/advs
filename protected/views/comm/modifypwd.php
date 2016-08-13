@@ -1,6 +1,3 @@
-
-<?php require_once dirname(dirname(__FILE__)).'/sidebar.php';?>
-
 <!-- content start -->
 	<div class="admin-content">
 		<div class="am-cf am-padding">
