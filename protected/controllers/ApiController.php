@@ -37,7 +37,15 @@ class ApiController extends Controller
                 $aff_sub	=	Yii::app()->request->getParam('clickid');
                 $subid		=	Yii::app()->request->getParam('subid');
                 $query	=  Yii::app()->request->getParam('search');
+                $checkAction = Yii::app()->request->getParam('checkAction');
                 $query = urldecode($query);
+
+                $original_offer_id = addslashes($original_offer_id);
+                $original_aff_id = addslashes($original_aff_id);
+                $aff_sub = addslashes($aff_sub);
+                $subid = addslashes($subid);
+                $query = addslashes($query);
+                $checkAction = addslashes($checkAction);
 
                 if(empty($original_aff_id)){
                     $aff_id = DEFAULT_AFF_ID;
@@ -59,7 +67,6 @@ class ApiController extends Controller
                 $ipip = new ipip();
                 $ip = $ipip->getIP();
                 $country_arr = $ipip->find($ip);
-                $url_this = $_SERVER['SERVER_NAME'];
                 //jump the offer we had set
                 if($aff_id != DEFAULT_AFF_ID){
                     $aff = JoySystemUser::model()->findByPk($aff_id);
@@ -127,6 +134,7 @@ class ApiController extends Controller
                 $insert_params['ip'] = $transaction->ip			=	$ip;
                 $insert_params['createtime'] = $transaction->createtime	=	date('Y-m-d H:i:s',time());
                 $insert_params['createtime2'] = $transaction->createtime2	=	gmdate('Y-m-d H:i:s');
+                $transaction->checkAction = $checkAction;
                 if(empty($query)){
 	                $insert_params['offer_url'] = $transaction->offer_url     = (string)$offer_url;
 		        }
@@ -154,7 +162,7 @@ class ApiController extends Controller
         $offer_url	=	isset($offer_url) ? $offer_url : $default_offer->offer_url;
         header("Location:$offer_url");
         if($this->ret_array['ret'] != 0){
-            Common::toTxt(array('file'=>'Log_ApiController_actionOfferClick.txt', 'txt'=>'Input:'.var_export($_REQUEST, true).'|Output:'.var_export($this->ret_array, true)));
+            Common::toTxt(array('file'=>'offerClick.txt', 'txt'=>'Input:'.var_export($_REQUEST, true).'|Output:'.var_export($this->ret_array, true)));
             return false;
         }else{
             return true;
@@ -174,6 +182,15 @@ class ApiController extends Controller
                 $am = Yii::app()->request->getParam('revenue'); //this is the revenue params
                 $platform = Yii::app()->request->getParam('pla');
                 $kimia_id = Yii::app()->request->getParam('kimia_id');
+
+                $click_str = addslashes($click_str);
+                $clientip = addslashes($clientip);
+                $country = addslashes($country);
+                $carrier = addslashes($carrier);
+                $am = addslashes($am);
+                $platform = addslashes($platform);
+                $kimia_id = addslashes($kimia_id);
+
                 if(empty($click_str)){
                     $this->ret_array['ret']	=	2;
                     $this->ret_array['error']	 .=	'缺失click_str;';
@@ -311,7 +328,7 @@ class ApiController extends Controller
                 break;
             }
         }while (0);
-        Common::toTxt(array('file'=>'Log_ApiController_actionOfferBackData.txt', 'txt'=>'Input:'.var_export($_REQUEST, true).'|Output:'.var_export($this->ret_array, true)));
+        Common::toTxt(array('file'=>'apiBack.txt', 'txt'=>'Input:'.var_export($_REQUEST, true).'|Output:'.var_export($this->ret_array, true)));
         if(0 != $this->ret_array['ret']){
             echo 'fail';
         }else{

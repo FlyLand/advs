@@ -213,8 +213,8 @@ class OfferController extends Controller{
             $offer->session_impression_hours = isset($_POST['session_impression_hours']) ? $_POST['session_impression_hours'] : '';
             $offer->enable_offer_whitelist = isset($_POST['enable_offer_whitelist']) ? $_POST['enable_offer_whitelist'] : '';
             $offer->note = isset($_POST['note']) ? $_POST['note'] : '';
-            $offer->status = isset($_POST['country']) ? $_POST['country'] : '';
-            $offer->geo_targeting = isset($_POST['status']) ? $_POST['status'] : '';
+            $offer->status = isset($_POST['status']) ? $_POST['status'] : '';
+            $offer->geo_targeting = isset($_POST['geo_targeting']) ? $_POST['geo_targeting'] : '';
             $offer->createtime = date("Y-m-d H:i:s", time());
             $offer->type = isset($_POST['types']) ? $_POST['types'] : '';
             //默认不进行自动更新

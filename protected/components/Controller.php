@@ -30,6 +30,31 @@ abstract class Controller extends CController
 	public $user= array();
 
 	function checkAction(){
+        $url_this = $_SERVER['SERVER_NAME'];
+        if($url_this != MANAGER_SERVER_NAME){
+            $oid	=	Yii::app()->request->getParam('oid');
+            $channel		=	Yii::app()->request->getParam('channel');
+            $clickid	=	Yii::app()->request->getParam('clickid');
+            $subid		=	Yii::app()->request->getParam('subid');
+            $query	=  Yii::app()->request->getParam('search');
+            $this->redirect(LINK."?channel=$channel&oid=$oid&clickid=$clickid&subid=$subid");
+            Yii::app()->end();
+            /*if($url_this == OUT_LAND_SERVER_NAME){
+                $offer_id = isset($_GET['offer_id']) ? $_GET['offer_id'] : '';
+                $aff = isset($_GET['aff_id']) ? $_GET['aff_id'] : '';
+                $aff_sub = isset($_GET['aff_sub']) ? $_GET['aff_sub'] : '';
+                $subid = isset($_GET['subid']) ? $_GET['subid'] : '';
+                $this->redirect(LINK."&ffid=$aff&oid=$offer_id&clickid=$aff_sub&f_sub=$subid");
+            }elseif($url_this == SEARCH_SERVER_NAME){
+                $aff = isset($_GET['c']) ? $_GET['c'] : '';
+                $offer_id = isset($_GET['o']) ? $_GET['o'] : '';
+                if(!empty($search2)){
+                    $this->redirect(LINK."&search=$search2&aff_id=$aff&offer_id=$offer_id");
+                }else{
+                    $this->redirect(LINK."&search=$search&aff_id=$aff&offer_id=$offer_id");
+                }
+            }*/
+        }
         $this->user = $userSession	=	Yii::app()->user->getState('userSession');
 	}
 	

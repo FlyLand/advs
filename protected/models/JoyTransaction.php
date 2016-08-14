@@ -20,6 +20,7 @@
  * @property string $country
  * @property string $createtime
  * @property string $createtime2
+ * @property string $checkAction
  */
 class JoyTransaction extends CActiveRecord
 {
@@ -94,6 +95,7 @@ class JoyTransaction extends CActiveRecord
 			'createtime' => 'Createtime',
 			'createtime2' => 'Createtime2',
 			'offer_url' => 'Offer Url',
+            'checkAction' => 'Check Action'
 		);
 	}
 
@@ -124,6 +126,7 @@ class JoyTransaction extends CActiveRecord
 		$criteria->compare('createtime',$this->createtime,true);
 		$criteria->compare('createtime2',$this->createtime2,true);
 		$criteria->compare('offer_url',$this->offer_url,true);
+        $criteria->compare('checkAction',$this->checkAction,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

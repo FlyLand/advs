@@ -1,16 +1,23 @@
-<link href="<?php echo Yii::app()->params['cssPath']?>css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
-<link href="<?php echo Yii::app()->params['cssPath']?>css/animate.min.css" rel="stylesheet">
-<link href="<?php echo Yii::app()->params['cssPath']?>css/style.min862f.css?v=4.1.0" rel="stylesheet">
+<script src="<?php echo Yii::app()->params['cssPath']?>js/plugins/jeditable/jquery.jeditable.js"></script>
+<script src="<?php echo Yii::app()->params['cssPath']?>js/plugins/dataTables/jquery.dataTables.js"></script>
+<script src="<?php echo Yii::app()->params['cssPath']?>js/plugins/dataTables/dataTables.bootstrap.js"></script>
+<script src="<?php echo Yii::app()->params['cssPath']?>js/content.min.js?v=1.0.0"></script>
 <script>
     $(document).ready(function(){$(".dataTables-example").dataTable();var oTable=$("#editable").dataTable();oTable.$("td").editable("http://www.zi-han.net/theme/example_ajax.php",{"callback":function(sValue,y){var aPos=oTable.fnGetPosition(this);oTable.fnUpdate(sValue,aPos[0],aPos[1])},"submitdata":function(value,settings){return{"row_id":this.parentNode.getAttribute("id"),"column":oTable.fnGetPosition(this)[2]}},"width":"90%","height":"100%"})});function fnClickAddRow(){$("#editable").dataTable().fnAddData(["Custom row","New row","New row","New row","New row"])};
 </script>
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
 
+<!-- Data Tables -->
+<link href="<?php echo Yii::app()->params['cssPath']?>css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+
+<link href="<?php echo Yii::app()->params['cssPath']?>css/animate.min.css" rel="stylesheet">
+<link href="<?php echo Yii::app()->params['cssPath']?>css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
 <div class="row">
     <div class="col-sm-12">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>基本 <small>分类，查找</small></h5>
+                <h5>Affiliates <small></small></h5>
                 <div class="ibox-tools">
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
@@ -63,20 +70,17 @@
                                 <td>$<?php echo $re_num - $pay_num;?></td>
                                 <td><?php echo $affiliate['manager_userid'];?></td>
                                 <td>
-                                    <div class="am-btn-toolbar">
-                                        <div class="am-btn-group am-btn-group-xs">
-                                            <a href="<?php echo $this->createUrl('affiliates/edit',array('id'=>$affiliate['id']))?>" class="am-btn am-btn-default am-btn-xs am-text-secondary" ><span class="am-icon-pencil-square-o"></span> Edit</a>
-                                            <?php if(in_array($this->user['groupid'],array('1','2','6'))){ ?>
-                                                <button onclick="deleteaff(<?php echo $affiliate['id']?>)" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" ><span class="am-icon-trash-o"></span> Delete</button>
-                                            <?php } ?>
-                                        </div>
+                                    <div>
+                                        <a href="<?php echo $this->createUrl('affiliates/edit',array('id'=>$affiliate['id']))?>" class="btn btn-outline-xs btn-success" > Edit</a>
+                                        <?php if(in_array($this->user['groupid'],array('1','2','6'))){ ?>
+                                            <button onclick="deleteaff(<?php echo $affiliate['id']?>)" class="btn btn-outline-xs btn-danger" > Delete</button>
+                                        <?php } ?>
                                     </div>
                                 </td>
                             </tr>
                         <?php }}?>
                     </tbody>
                 </table>
-                <div class="hr-line-dashed"></div>
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-2">
                         <button class="btn btn-primary" onclick="savecut()" type="button">Save</button>

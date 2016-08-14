@@ -105,7 +105,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Account Manager:</label>
                         <<div class="col-sm-6">
-                            <select data-am-selected  name="account_manager_id" class="form-control m-b">
+                            <select  name="account_manager_id" class="form-control m-b">
                                 <option value=""></option>
                                 <?php if($business){ ?>
                                     <?php foreach($business as $val=>$key){?>

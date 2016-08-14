@@ -26,7 +26,7 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label">Advertiser:</label>
 						<div class="col-sm-6">
-							<select  name="advertiser" class="form-control m-b">
+							<select id="advertiser" name="advertiser" class="form-control m-b">
 								<?php foreach ($advertises as $ad){
 									echo '<option value="'.$ad['id'].'">'.$ad['company'].'</option>';
 								}?>
@@ -66,9 +66,9 @@
 						<label class="col-sm-2 control-label">Status:</label>
 						<div class="col-sm-6">
 							<select name="status" id="status" class="form-control m-b">
+								<option value="1" selected="selected">Active</option>
+								<option value="0" >Pending</option>
 								<option value="2">Deleted</option>
-								<option value="1">Active</option>
-								<option value="0" selected="selected">Pending</option>
 							</select>
 						</div>
 					</div>
@@ -102,13 +102,13 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label">Country:</label>
 						<div class="col-sm-6">
-							<input type="text" name="country" class="form-control" id="country" placeholder="">
+							<input type="text" name="geo_targeting" class="form-control" id="country" placeholder="">
 						</div>
 					</div>
 					<div class="hr-line-dashed"></div>
 					<div class="form-group">
 						<div class="col-sm-4 col-sm-offset-2">
-							<button class="btn btn-primary" onclick="submit()" type="button">Save</button>
+							<button class="btn btn-primary" onclick="addOffer()" type="button">Save</button>
 						</div>
 					</div>
 				</form>
@@ -137,7 +137,7 @@ $("#caps").change(function(){
 	}
 });
 
-function submit(){ 
+function addOffer(){
 	var isTrue = true;
 	if(!isTrue){
 		alert("请勿重复提交");
@@ -181,10 +181,6 @@ function submit(){
 		}
 	if(!offer_url){
 		alert("offer_url can't be null！");
-		return;
-		}
-	if(!protocol){
-		alert("protocol can't be null！");
 		return;
 		}
 	if(!revenue){
