@@ -19,12 +19,12 @@ $edit = 'readonly';
     <div class="col-sm-12">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>Site Edit</h5>
+                <h5>Site Detail</h5>
                 <div class="ibox-tools">
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
                     </a>
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo Yii::app()->request->getUrl()?>#">
                         <i class="fa fa-wrench"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
@@ -39,7 +39,7 @@ $edit = 'readonly';
                 </div>
             </div>
             <div class="ibox-content">
-                <form method="post" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" class="form-horizontal">
+                <form method="post" id="doForm" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" class="form-horizontal">
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Company</label>
                         <div class="col-sm-6">
@@ -120,7 +120,7 @@ $edit = 'readonly';
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
                     </a>
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo Yii::app()->request->getUrl();?>#">
                         <i class="fa fa-wrench"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
@@ -230,12 +230,12 @@ $edit = 'readonly';
 
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>Site Edit</h5>
+                <h5>Create Affiliate</h5>
                 <div class="ibox-tools">
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
                     </a>
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo Yii::app()->request->getUrl();?>#">
                         <i class="fa fa-wrench"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
@@ -250,7 +250,7 @@ $edit = 'readonly';
                 </div>
             </div>
             <div class="ibox-content">
-                <form method="post" action="<?php echo $this->createUrl('affiliates/createaff');?>" class="form-horizontal">
+                <form method="post" id="addAff" action="<?php echo $this->createUrl('affiliates/createaff');?>" class="form-horizontal">
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Title：</label>
                         <div class="col-sm-6">

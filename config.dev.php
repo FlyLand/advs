@@ -1,8 +1,10 @@
 <?php
 //================以下是系统日志文件目录=====================
 define('DIRLOGS', 'D:\land.zhang\workspace\php_code\advs\logs/');
+//define('DIRLOGS', '/data/nginx/www/advs/logs/');
 
 define('BASE_DIR', 'D:\land.zhang\workspace\php_code\advs');
+//define('BASE_DIR', '/data/nginx/www/advs/');
 
 define('W_APP_NAME', 'New hasoffer');
 
@@ -33,15 +35,15 @@ define('SITE_GROUP_ID',7);
 define('FINANCE_GROUP_ID',8);
 define('USER_GROUP_ADMIN', 1);			//管理员ID
 //define('DEFAULT_OFFER_ID',75942);
-define('DEFAULT_OFFER_ID',1);
+define('DEFAULT_OFFER_ID',2);
 define('DEFAULT_AFF_ID',1);
 define('FEE',20);
 
 define('MIN_PAYOUT',100);
-define('PDF_SAVE_PATH','/ddata/nginx/www/advs/upload/pdf/');
+define('PDF_SAVE_PATH','/data/nginx/www/advs/upload/pdf/');
 define('AGENT_USER_GROUP_ID',1);
-define('LINK','http://apbr.paopaogogo.com/index.php?r=api/click');
-define('MANAGER_SERVER_NAME','mtpa.paopaogogo.com');
-define('OUT_LAND_SERVER_NAME','apbr.paopaogogo.com');
-define('IN_LAND_SERVER_NAME','apbs.paopaogogogo.info');
+define('LINK','http://apbr.advsgobal.com/api/click');
+define('MANAGER_SERVER_NAME','backed.advsgobal.com');
+define('OUT_LAND_SERVER_NAME','apbr.advsgobal.com');
+define('IN_LAND_SERVER_NAME','cn.advsgobal.com');
 define('SEARCH_SERVER_NAME','');
