@@ -119,7 +119,6 @@
 			'payment/uploadmonthexcel' =>array('canshow'=>0,'name'=>'Upload Month Payment Excel'),
 			'report/dailyreportim' =>array('canshow'=>1,'name'=>'Daily Report Im'),
 			'report/downloadimpression' =>array('canshow'=>0,'name'=>'Download Impression'),
-			'report/downloadincome' =>array('canshow'=>0,'name'=>'Download Income'),
-
+			'report/dailyReportIm' =>array('canshow'=>1,'name'=>'Daily Report Im'),
 	);
 ?>

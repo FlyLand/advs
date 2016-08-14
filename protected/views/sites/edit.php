@@ -17,221 +17,217 @@ $edit = 'readonly';
 
 <div class="row">
     <div class="col-sm-12">
-    <div class="ibox float-e-margins">
-        <div class="ibox-title">
-            <h5>Site Edit</h5>
-            <div class="ibox-tools">
-                <a class="collapse-link">
-                    <i class="fa fa-chevron-up"></i>
-                </a>
-                <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
-                    <i class="fa fa-wrench"></i>
-                </a>
-                <ul class="dropdown-menu dropdown-user">
-                    <li><a href="form_basic.html#">选项1</a>
-                    </li>
-                    <li><a href="form_basic.html#">选项2</a>
-                    </li>
-                </ul>
-                <a class="close-link">
-                    <i class="fa fa-times"></i>
-                </a>
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Site Edit</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                        <i class="fa fa-wrench"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="form_basic.html#">选项1</a>
+                        </li>
+                        <li><a href="form_basic.html#">选项2</a>
+                        </li>
+                    </ul>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="ibox-content">
-            <form method="post" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" class="form-horizontal">
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Company</label>
-                    <div class="col-sm-6">
-                        <input type="text" name="title" value="<?php echo $site['company']?>" class="form-control">
+            <div class="ibox-content">
+                <form method="post" action="<?php echo $this->createUrl('affiliates/update',array('id'=>$site['id']));?>" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Company</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="title" value="<?php echo $site['company']?>" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Address 1:</label>
-                    <div class="col-sm-6">
-                        <input type="text" name="company" value="<?php echo $site['address']?>" class="form-control">
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Address 1:</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="company" value="<?php echo $site['address']?>" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">E-mail Address:</label>
-                    <div class="col-sm-6">
-                        <input type="text" name="email" value="<?php echo  $site['email']?>" class="form-control">
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">E-mail Address:</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="email" value="<?php echo  $site['email']?>" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Country:</label>
-                    <div class="col-sm-6">
-                        <input type="text" name="country" value="<?php echo  $site['country']?>" class="form-control">
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Country:</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="country" value="<?php echo  $site['country']?>" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Phone:</label>
-                    <div class="col-sm-6">
-                        <input type="text" name="phone" value="<?php echo  $site['phone']?>" class="form-control">
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Phone:</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="phone" value="<?php echo  $site['phone']?>" class="form-control">
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Account Manager:</label>
-                    <div class="col-sm-6">
-                        <select class="form-control m-b" name="account_manager_id">
-                            <option value=""></option>
-                            <?php if($business){ ?>
-                                <?php foreach($business as $val=>$key){
-                                    $selected = '';
-                                    if($key['id'] == $site['manager_userid']){
-                                        $selected = 'selected';
-                                    }
-                                    echo "<option $selected value='{$key['id']}'>{$key['id']}. '    ' . {$key['company']}</option>";
-                                    ?>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Account Manager:</label>
+                        <div class="col-sm-6">
+                            <select class="form-control m-b" name="account_manager_id">
+                                <option value=""></option>
+                                <?php if($business){ ?>
+                                    <?php foreach($business as $val=>$key){
+                                        $selected = '';
+                                        if($key['id'] == $site['manager_userid']){
+                                            $selected = 'selected';
+                                        }
+                                        echo "<option $selected value='{$key['id']}'>{$key['id']}. '    ' . {$key['company']}</option>";
+                                        ?>
+                                    <?php }?>
                                 <?php }?>
-                            <?php }?>
-                        </select>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Account Status::</label>
-                    <div class="col-sm-6">
-                        <select class="form-control m-b" name="status">
-                            <option value="1">Active</option>
-                            <option value="0">Pending</option>
-                        </select>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Account Status::</label>
+                        <div class="col-sm-6">
+                            <select class="form-control m-b" name="status">
+                                <option value="1">Active</option>
+                                <option value="0">Pending</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <div class="col-sm-4 col-sm-offset-2">
-                        <button class="btn btn-primary" onclick="editAff()" type="button">Save</button>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <button class="btn btn-primary" onclick="editAff()" type="button">Save</button>
+                        </div>
                     </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    </div>
-
-    <div class="col-sm-12">
-    <div class="ibox float-e-margins">
-        <div class="ibox-title">
-            <h5>Site Edit</h5>
-            <div class="ibox-tools">
-                <a class="collapse-link">
-                    <i class="fa fa-chevron-up"></i>
-                </a>
-                <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
-                    <i class="fa fa-wrench"></i>
-                </a>
-                <ul class="dropdown-menu dropdown-user">
-                    <li><a href="form_basic.html#">选项1</a>
-                    </li>
-                    <li><a href="form_basic.html#">选项2</a>
-                    </li>
-                </ul>
-                <a class="close-link">
-                    <i class="fa fa-times"></i>
-                </a>
+                </form>
             </div>
         </div>
-        <div class="ibox-content">
-            <form method="post" action="<?php echo $this->createUrl('affiliates/payment',array('site_id'=>$site['id'],'action_type'=>'add','payment_type'=>0));?>" class="form-horizontal">
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Beneficiary：</label>
-                    <div class="col-sm-6">
-                        <?php
-                        if(!empty($payment)) {
-                            $beneficiary = empty($payment['beneficiary']) ? '' : $payment['beneficiary'];
-                            $bank_name = empty($payment['bank_name']) ? '' : $payment['bank_name'];
-                            $bank_address = empty($payment['bank_address']) ? '' : $payment['bank_address'];
-                            $bank_account = empty($payment['bank_account']) ? '' : $payment['bank_account'];
-                            $swift_code = empty($payment['swift_code']) ? '' : $payment['swift_code'];
-                            $pee = empty($payment['pee']) ? '' : $payment['pee'];
-                            $status = empty($payment['status']) ? 0 : $payment['status'];
-                        }
-                        if(in_array($this->user['groupid'],$this->manager_group)){
-                            if(empty($status)){
-                                $edit = '';
-                            }
-                        }else{
-                            if(empty($status)){
-                                $edit = '';
-                            }
-                        }
-                        ?>
-                        <input type="text" id="beneficiary" <?php echo $edit?> name="beneficiary" class="form-control" value="<?php echo $beneficiary;?>">
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Bank Name:</label>
-                    <div class="col-sm-6">
-                        <input type="text" id="bank_name" <?php echo $edit;?> name="bankname" class="form-control" value="<?php echo $bank_name;?>">
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Bank Address:</label>
-                    <div class="col-sm-6">
-                        <input type="text" id="bank_address" <?php echo $edit;?> name="bankadd" class="form-control" value="<?php echo $bank_address?>">
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Bank Account:</label>
-                    <div class="col-sm-6">
-                        <input type="text" id="bank_account" <?php echo $edit;?> name="bankacc" class="form-control" value="<?php echo $bank_account;?>">
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Swift Code:</label>
-                    <div class="col-sm-6">
-                        <input type="text" id="swift_code" <?php echo $edit;?> name="swift_code" class="form-control" value="<?php echo $swift_code;?>">
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Status:</label>
-                    <div class="col-sm-6">
-                        <?php if(in_array($this->user['groupid'],$this->manager_group)){
-                            if(1 == $status){
-                                echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
-                            }elseif(2 == $status){
-                                echo "<a class='am-badge am-badge-success'>Checked</a>";
-                            }
-                        }else{
-                            if(1 == $status){
-                                echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
-                            }elseif(2 == $status){
-                                echo "<a class='am-badge am-badge-success'>Checked</a>";
-                            }
-                        }?>
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
-                <div class="form-group">
-                    <div class="col-sm-4 col-sm-offset-2">
-                        <button class="btn btn-primary" onclick="editPayment()" type="button">Save</button>
-                    </div>
-                    <div class="col-sm-6">
-                        <?php if(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,BUSINESS_GROUP_ID))){
-                            if($status === 0){
-                                echo "<button type=\"button\" onclick='authentication(0)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
-                            }
-                        }elseif(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,FINANCE_GROUP_ID))){
-                            echo "<button type=\"button\" onclick='authentication(1)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
-                        }?>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
 
-    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Site Edit</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                        <i class="fa fa-wrench"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="form_basic.html#">选项1</a>
+                        </li>
+                        <li><a href="form_basic.html#">选项2</a>
+                        </li>
+                    </ul>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <form method="post" action="<?php echo $this->createUrl('affiliates/payment',array('site_id'=>$site['id'],'action_type'=>'add','payment_type'=>0));?>" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Beneficiary：</label>
+                        <div class="col-sm-6">
+                            <?php
+                            if(!empty($payment)) {
+                                $beneficiary = empty($payment['beneficiary']) ? '' : $payment['beneficiary'];
+                                $bank_name = empty($payment['bank_name']) ? '' : $payment['bank_name'];
+                                $bank_address = empty($payment['bank_address']) ? '' : $payment['bank_address'];
+                                $bank_account = empty($payment['bank_account']) ? '' : $payment['bank_account'];
+                                $swift_code = empty($payment['swift_code']) ? '' : $payment['swift_code'];
+                                $pee = empty($payment['pee']) ? '' : $payment['pee'];
+                                $status = empty($payment['status']) ? 0 : $payment['status'];
+                            }
+                            if(in_array($this->user['groupid'],$this->manager_group)){
+                                if(empty($status)){
+                                    $edit = '';
+                                }
+                            }else{
+                                if(empty($status)){
+                                    $edit = '';
+                                }
+                            }
+                            ?>
+                            <input type="text" id="beneficiary" <?php echo $edit?> name="beneficiary" class="form-control" value="<?php echo $beneficiary;?>">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Bank Name:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="bank_name" <?php echo $edit;?> name="bankname" class="form-control" value="<?php echo $bank_name;?>">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Bank Address:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="bank_address" <?php echo $edit;?> name="bankadd" class="form-control" value="<?php echo $bank_address?>">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Bank Account:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="bank_account" <?php echo $edit;?> name="bankacc" class="form-control" value="<?php echo $bank_account;?>">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Swift Code:</label>
+                        <div class="col-sm-6">
+                            <input type="text" id="swift_code" <?php echo $edit;?> name="swift_code" class="form-control" value="<?php echo $swift_code;?>">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Status:</label>
+                        <div class="col-sm-6">
+                            <?php if(in_array($this->user['groupid'],$this->manager_group)){
+                                if(1 == $status){
+                                    echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
+                                }elseif(2 == $status){
+                                    echo "<a class='am-badge am-badge-success'>Checked</a>";
+                                }
+                            }else{
+                                if(1 == $status){
+                                    echo "<a class='am-badge am-badge-warning'>Not Checked</a>";
+                                }elseif(2 == $status){
+                                    echo "<a class='am-badge am-badge-success'>Checked</a>";
+                                }
+                            }?>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <button class="btn btn-primary" onclick="editPayment()" type="button">Save</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <?php if(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,BUSINESS_GROUP_ID))){
+                                if($status === 0){
+                                    echo "<button type=\"button\" onclick='authentication(0)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
+                                }
+                            }elseif(in_array($this->user['groupid'],array(ADMIN_GROUP_ID,FINANCE_GROUP_ID))){
+                                echo "<button type=\"button\" onclick='authentication(1)' class=\"am-btn-m am-btn-primary\">Authentication</button>";
+                            }?>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <div class="ibox float-e-margins">
             <div class="ibox-title">
                 <h5>Site Edit</h5>
@@ -271,9 +267,7 @@ $edit = 'readonly';
                 </form>
             </div>
         </div>
-    </div>
 
-    <div class="col-sm-12">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
                 <h5>Site Edit</h5>
@@ -299,7 +293,7 @@ $edit = 'readonly';
                 <form method="post" action="<?php echo $this->createUrl('site/addrel',array('id'=>$site['id']));?>" class="form-horizontal">
                     <div class="form-group">
                         <table class="table table-striped table-bordered table-hover dataTables-example">
-                        <thead>
+                            <thead>
                             <tr>
                                 <td>Affiliate Id</td>
                                 <td>Title</td>
