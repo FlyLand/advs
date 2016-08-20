@@ -27,8 +27,11 @@ return array(
         7=>'Site',
         8=>'Finance',
     ],
-
-    'ADMIN_USER_ID'=>1,
+    'not_check_action'=>array(
+        'index/index',
+        'common/login',
+    ),
+    'logs'=>Yii::app()->getBasePath() . '/runtime/logs/',
     'ADMIN_GROUP_ID'=>1,
     'MANAGER_GROUP_ID'=>2,
     'BUSINESS_GROUP_ID'=>3,

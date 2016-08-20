@@ -4,9 +4,9 @@
  */
 class System{
 	public static $tbluser			= 	'joy_system_user';
-	public static $tblpower 		= 	'joy_system_power';
+	public static $tblpower 		= 	'adv_power';
 	public static $tblgroup 		= 	'joy_system_group';
-	public static $tblgrouppower 	= 	'joy_system_grouppower';
+	public static $tblgrouppower 	= 	'adv_grouppower';
 	public static $tblsystemlog 	= 	'joy_system_log';
 	
 	/**

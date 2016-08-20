@@ -8,10 +8,6 @@
  */
 class SiteController extends Controller
 {
-    public function __construct($id, $module)
-    {
-        $this->checkAction();
-    }
     public function actionIndex(){
         if($this->user['groupid'] == BUSINESS_GROUP_ID){
             $sites = JoySites::getSitesInformationWithBusiness($this->user['userid']);

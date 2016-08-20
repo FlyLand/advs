@@ -9,7 +9,7 @@
 $basePath = dirname(__FILE__).DIRECTORY_SEPARATOR.'..';
 return array(
 	'basePath'=>$basePath,
-	'name'=>'管理后台',
+	'name'=>'Offer Manager',
 	'viewPath' => $basePath.'/views',
 	'controllerPath' => $basePath.'/controllers',
 
@@ -28,13 +28,13 @@ return array(
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		/*
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'123456',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-		),*/
+		),
+		'user',//用户模块
 	),
 
 
@@ -43,12 +43,13 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+			'loginUrl'=>'/common/login'
 		),
 		'cache'=>array(
 				'class'=>'CFileCache',
-				'cachePath'=> '/ddata/nginx/www/advs/protected/runtime/cache/',
+				'cachePath'=> dirname(dirname(__FILE__)).'/runtime/session',
 		),
-		'redis_cache' => array (
+		'redis' => array (
 			'class' => 'ext.redis.CRedisCache',
 			'servers'=>array(
 				array(
@@ -58,16 +59,13 @@ return array(
 			),
 
 		),
-			/*
-		'cache' => array(
-				'class'     => 'CMemCache',
-				'keyPrefix'=>'BDT',
-	        	'servers' => array(
-	           		 array('host' => '58.221.59.78', 'port' => 21211, 'weight' => 60),
-	         ),
-		),*/
-
-		// uncomment the following to enable URLs in path-format
+		'authManager'=>array(
+			'class'=>'CDbAuthManager',
+			'connectionID'=>'db',
+			'itemTable'=>'t_auth_item',
+			'itemChildTable' => 't_parent_child',
+			'assignmentTable' => 't_assign'
+		),
 
 		'urlManager'=>array(
 			'urlFormat'			=>	'path',
@@ -84,23 +82,13 @@ return array(
 		
 		'db'=>array(
 				'class'=>'CDbConnection',
-				'connectionString' => 'mysql:host=localhost;dbname=advs',
+				'connectionString' => 'mysql:host=localhost;dbname=adv_test',
 				'emulatePrepare' => true,
 				'username' => 'root',
 				'password' => '',
 				'charset' => 'utf8',
 				'enableProfiling'=>'true',
 		),
-		'slave'=>array(
-				'class'=>'CDbConnection',
-				'connectionString' => 'mysql:host=localhost;dbname=project',
-				'emulatePrepare' => true,
-				'username' => 'land',
-				'password' => 'rain',
-				'charset' => 'utf8',
-				'enableProfiling'=>'true',
-		),	
-		
 
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -120,11 +108,10 @@ return array(
 			),
 		),
 	),
-
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 
 	'params'=>require 'param.php',
-	'defaultController'=>'system/login',
+	'defaultController'=>'common/login',
 	'language'=>"zh_cn",
 );

@@ -1,6 +1,6 @@
 <?php
 //================以下是系统日志文件目录=====================
-define('DIRLOGS', 'D:\land.zhang\workspace\php_code\advs\logs/');
+define('DIRLOGS', 'G:/php_web/myservice/advs/logs/');
 //define('DIRLOGS', '/data/nginx/www/advs/logs/');
 
 define('BASE_DIR', 'D:\land.zhang\workspace\php_code\advs');

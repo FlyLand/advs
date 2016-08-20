@@ -16,6 +16,8 @@
  * @property integer $status
  * @property string $createtime
  * @property integer $site_id
+ * @property string $lastlogin
+ * @property string $loginip
  */
 class User extends CActiveRecord
 {
@@ -86,6 +88,7 @@ class User extends CActiveRecord
 			'status' => 'Status',
 			'createtime' => 'Createtime',
 			'site_id' => 'Site',
+			'loginip'=> 'Loginip',
 		);
 	}
 
@@ -112,6 +115,9 @@ class User extends CActiveRecord
 		$criteria->compare('status',$this->status);
 		$criteria->compare('createtime',$this->createtime,true);
 		$criteria->compare('site_id',$this->site_id);
+		$criteria->compare('lastlogin',$this->lastlogin);
+		$criteria->compare('loginip',$this->loginip);
+
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -5,80 +5,50 @@
  * 
  */
 class SystemController extends Controller{
-	/**
-	 * 构造函数，在New对象的时候自动调用
-	 */
-	public function __construct()
-	{
-		$this->checkAction();
+
+	public function filters(){
 	}
 
 	/**
 	 * 后台首页
 	 * @author nicky
 	 */
-	public function actionIndex()
-	{
-		$ret_array	 =	array( 'ret'=>-1, 'msg'=>'', 'data'=>array() );
-		do{
-			try{
-				$this->checkUserStatus();
-				
-				$reqData	=	System::getUserList(array('id'=>$this->user['userid'], 'canmc'=>false));//用户登录检查
-				if( empty($reqData) || !isset($reqData['ret']) ){
-					$ret_array['ret']	= 101;
-					$ret_array['msg']	 = '服务器忙，请稍后再试';
-					break;
-				}
-				if( 0 != $reqData['ret']){
-					$ret_array	= $reqData;
-					break;
-				}
-				$userinfo	=	array_shift($reqData['data']);
-		
-				$ret_array['ret']	 =	0;
-				$ret_array['data']	 =	$userinfo;
-			}catch(Exception $e){
-				$ret_array['']	= 106;
-				$ret_array['msg']	 = $e->getMessage();
-			}
-		}while(0);
-		$this->render('system/index' , $ret_array);
+	public function actionIndex(){
+		$this->layout = '//layouts/column2';
+		$this->render('index');
 	}
 	/**
 	 * 登录
-	 * @author nicky
 	 */
 	public function actionLogin()
 	{
 		$model=new LoginForm;
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
+		if(isset($_POST['LoginForm'])) {
+			$model->attributes = $_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login()){
+			if ($model->validate() && $model->login()) {
 				$user = JoySystemUser::model()->findByPk(Yii::app()->user->id);
-				$reqData	=	System::getGroupPowerDetail(array('groupid'=>$user['groupid'], 'datatype'=>'simple'));//用户登录检查
-				$powerinfo	=	$reqData['data'];
-				$actioninfo	=	array();
-				foreach($powerinfo as $item ){
+				$reqData = System::getGroupPowerDetail(array('groupid' => $user['groupid'], 'datatype' => 'simple'));//用户登录检查
+				$powerinfo = $reqData['data'];
+				$actioninfo = array();
+				foreach ($powerinfo as $item) {
 					$actioninfo = array_merge($actioninfo, array_keys($item['actions']));
 				}
-				$session_data				=	array();
-				$session_data['userid']		=	Yii::app()->user->id;
-				$session_data['email']		=	$user['email'];
-				$session_data['powerinfo']	=	$powerinfo;
-				$session_data['actioninfo']	=	$actioninfo;
-				$session_data['groupid']	=	$user['groupid'];
-				$session_data['openuser']	=	$user['openuser'];
-				$session_data['showmenu']	=	'';
-				$session_data['dtime']		=	date('Y-m-d H:i:s');
-				Yii::app()->user->setState('userSession',$session_data);
+				$session_data = array();
+				$session_data['userid'] = Yii::app()->user->id;
+				$session_data['email'] = $user['email'];
+				$session_data['powerinfo'] = $powerinfo;
+				$session_data['actioninfo'] = $actioninfo;
+				$session_data['groupid'] = $user['groupid'];
+				$session_data['openuser'] = $user['openuser'];
+				$session_data['showmenu'] = '';
+				$session_data['dtime'] = date('Y-m-d H:i:s');
+				Yii::app()->user->setState('userSession', $session_data);
 				$this->redirect(Yii::app()->createUrl('index/index'));
 			}
 		}
 		// display the login form
-		$this->render('comm/login',array('model'=>$model));
+		$this->render('login',array('model'=>$model));
 	}
 	/**
 	 * 账户登出

@@ -19,10 +19,7 @@
     <link href="<?php echo Yii::app()->params['cssPath'];?>/css/style.min862f.css?v=4.1.0" rel="stylesheet">
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
-<div id="wrapper">
- <?php echo $content;?>
-<!-- content end -->
-</div>
+     <?php echo $content;?>
  <footer>
   <hr>
 </footer>

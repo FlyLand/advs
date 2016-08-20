@@ -24,8 +24,7 @@ class UserIdentity extends CUserIdentity{
 			$this->errorCode = self::ERROR_PASSWORD_INVALID;
 		}
 		
-		$user = JoySystemUser::model()->findByAttributes(array('email' => $this->username));
-
+		$user = User::model()->findByAttributes(array('email' => $this->username));
         if($user == NULL){
             $this->errorCode = self::ERROR_USERNAME_INVALID;
 		}
@@ -36,10 +35,10 @@ class UserIdentity extends CUserIdentity{
 			if($md5Passwd === $user->password){
 				//登录验证成功，保存session信息
                 $data = array(
-                    'lastlogin' => date('Y-m-d H:i:s'),
+                    'lastlogin' => time(),
                     'loginip' => Yii::app()->request->userHostAddress,
                 );
-                JoySystemUser::model()->updateByPk($user->id,$data);
+                User::model()->updateByPk($user->id,$data);
 				$this->setState('truename',$user->email);
 				$this->_id = $user->id;
 				$this->errorCode = self::ERROR_NONE;

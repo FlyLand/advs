@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd65b1b1-32bd-4662-8411-4c8422cd313c" name="Default" comment="t">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_nav_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_nav_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_ne.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_nw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_se.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_sw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_shadow_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_title_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_title_main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_title_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancy_title_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancybox-x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancybox-y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/fancybox.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/autocomplete/indicator.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" />
@@ -34,95 +55,16 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/treeview/images/treeview-gray.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/treeview/images/treeview-red-line.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/treeview/images/treeview-red.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/patterns/header-profile-skin-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/patterns/header-profile-skin-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/patterns/header-profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/patterns/shattered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/play-pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/video-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/chosen/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/chosen/chosen-sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/footable/fonts/footable.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/footable/fonts/footable.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/footable/fonts/footable.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/footable/fonts/footabled41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/iCheck/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/iCheck/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/images/sprite-skin-flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/images/spritemap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/images/spritemap@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/fontawesome-webfont93e3.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/fontawesome-webfont93e3.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/fontawesome-webfont93e3.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/fontawesome-webfont93e3.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/fontawesome-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/a9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/iconfont-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/index.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/index_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/loading-upload.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/locked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/login-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/p1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/p2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/p3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/p_big1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/p_big2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/p_big3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/pay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/profile.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/profile_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/profile_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/qr_code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/img/wenku_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/fancybox_loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/fancybox_sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/gritter/images/gritter-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/gritter/images/gritter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/gritter/images/ie-spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/skins/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/skins/molv/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/skins/dahong/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/skins/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/skins/molv/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/layim/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/14a12fc1/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1d3e10ec/pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/session/2723baccbec9a12b5981e8b5cfa61efa.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/session/aedfa8eb0d74c6188e4a6067752a75b4.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/jquery.fancybox-1.3.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/fancybox/jquery.fancybox-1.3.1.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/jquery.tooltip-1.2.6.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/1a1098ec/js/main.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/autocomplete/jquery.autocomplete.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/jquery.ajaxqueue.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/jquery.autocomplete.js" />
@@ -163,203 +105,45 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/rating/jquery.rating.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/treeview/jquery.treeview.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/59e69f54/yiitab/jquery.yiitab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/78919fe1/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/925f7eb/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/bootstrap.min14ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/demo/webuploader-demo.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/font-awesome.min93e3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/login.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/css/blueimp-gallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/error.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/play-pause.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/blueimp/img/video-play.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/bootstrap-table/bootstrap-table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/chosen/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/clockpicker/clockpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/codemirror/ambiance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/codemirror/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/cropper/cropper.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/dataTables/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/datapicker/datepicker3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/dropzone/basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/dropzone/dropzone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/footable/fonts/footable.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/footable/footable.core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/iCheck/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/ionRangeSlider/ion.rangeSlider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/jasny/jasny-bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/jqgrid/ui.jqgridffe4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/jsTree/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/markdown/bootstrap-markdown.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/morris/morris-0.4.3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/nouslider/jquery.nouislider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/plyr/plyr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/plyr/sprite.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/simditor/simditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/steps/jquery.steps.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/summernote/summernote-bs3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/summernote/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/sweetalert/sweetalert.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/switchery/switchery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/toastr/toastr.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/treeview/bootstrap-treeview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/plugins/webuploader/webuploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/css/style.min862f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/fontawesome-webfont93e3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/contabs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/content.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/bootstrap-table-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/echarts-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/flot-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/form-advanced-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/form-validate-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/layer-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/morris-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/peity-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/rickshaw-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/sparkline-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/treeview-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/demo/webuploader-demo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/hplus.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/jquery-ui-1.10.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/jquery-ui.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/beautifyhtml/beautifyhtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/blueimp/jquery.blueimp-gallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/bootstrap-table/bootstrap-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/chartJs/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/chosen/chosen.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/clockpicker/clockpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/codemirror/mode/javascript/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/colorpicker/bootstrap-colorpicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/cropper/cropper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/dataTables/dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/dataTables/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/datapicker/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/diff_match_patch/diff_match_patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/dropzone/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/easypiechart/jquery.easypiechart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/echarts/echarts-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fancybox/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/curvedLines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/jquery.flot.spline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/jquery.flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/flot/jquery.flot.tooltip.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/footable/footable.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/gritter/jquery.gritter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/gritter/jquery.gritter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/iCheck/icheck.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jasny/jasny-bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jeditable/jquery.jeditable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jqgrid/i18n/grid.locale-cnffe4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jqgrid/jquery.jqGrid.minffe4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jquery-ui/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jsKnob/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jsTree/jstree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/extend/layer.ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/layDate官网.url" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/laydate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/need/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/skins/default/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/laydate/skins/molv/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate-v1.1/更新日志.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/laydate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/need/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/skins/dahong/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/skins/default/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/laydate/skins/molv/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/layer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/layim/layim.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/layim/layim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/skin/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/skin/layer.ext.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/layer/skin/moon/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/markdown/bootstrap-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/markdown/bootstrap-markdown.zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/markdown/to-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/metisMenu/jquery.metisMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/morris/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/morris/raphael-2.1.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/nestable/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/nouslider/jquery.nouislider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/pace/pace.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/peity/jquery.peity.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/plyr/plyr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/prettyfile/bootstrap-prettyfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/rickshaw/rickshaw.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/rickshaw/vendor/d3.v3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/simditor/hotkeys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/simditor/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/simditor/simditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/simditor/uploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/slimscroll/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/sparkline/jquery.sparkline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/staps/jquery.steps.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/suggest/bootstrap-suggest.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/summernote/summernote-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/summernote/summernote.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/sweetalert/sweetalert.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/switchery/switchery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/toastr/toastr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/treeview/bootstrap-treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/validate/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/validate/messages_zh.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/webuploader/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/plugins/webuploader/webuploader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/js/welcome.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/plugins/fullavatareditor/scripts/fullAvatarEditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/plugins/fullavatareditor/scripts/jQuery.Cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/plugins/fullavatareditor/scripts/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hplus/plugins/fullavatareditor/scripts/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/components/PageException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/models/LoginForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/yiic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/yiic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robot.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/classic/views/.htaccess" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/components/TestController.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Log_System_getGroupPowerDetail.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Log_System_getGroupPowerList.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/controllers/CommonController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/controllers/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/user/controllers/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/user/views/user/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.10/ModelCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.10/ModuleCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/session/34fbd91d801600cf4de94ba07ef8925c.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/session/b0207acef5b60d134496d3bf4016cc7a.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/session/cf98c0c732e4a2b4065097652865d611.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/common/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/common/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/layouts/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/layouts/sidebar.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/modules/user/controllers/IndexController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/comm/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/sidebar.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hplus/css/login.min.css" afterPath="$PROJECT_DIR$/assets/hplus/css/login.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.dev.php" afterPath="$PROJECT_DIR$/config.dev.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/Controller.php" afterPath="$PROJECT_DIR$/protected/components/Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/UserIdentity.php" afterPath="$PROJECT_DIR$/protected/components/UserIdentity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/ipip.php" afterPath="$PROJECT_DIR$/protected/components/ipip.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.dev.php" afterPath="$PROJECT_DIR$/protected/config/main.dev.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/param.php" afterPath="$PROJECT_DIR$/protected/config/param.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/powerconf.php" afterPath="$PROJECT_DIR$/protected/config/powerconf.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/ApiController.php" afterPath="$PROJECT_DIR$/protected/controllers/ApiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/ErrorController.php" afterPath="$PROJECT_DIR$/protected/controllers/ErrorController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/IndexController.php" afterPath="$PROJECT_DIR$/protected/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SystemController.php" afterPath="$PROJECT_DIR$/protected/controllers/SystemController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/comm/login.php" afterPath="$PROJECT_DIR$/protected/views/comm/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/error/error.php" afterPath="$PROJECT_DIR$/protected/views/error/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/System.php" afterPath="$PROJECT_DIR$/protected/models/System.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/UserModule.php" afterPath="$PROJECT_DIR$/protected/modules/user/UserModule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/index/index.php" afterPath="$PROJECT_DIR$/protected/views/index/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/sidebar.php" afterPath="$PROJECT_DIR$/protected/views/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/system/index.php" afterPath="$PROJECT_DIR$/protected/views/system/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/modules/user/models/User.php" afterPath="$PROJECT_DIR$/protected/models/User.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/modules/user/views/list.php" afterPath="$PROJECT_DIR$/protected/views/user/list.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/comm/modifypwd.php" afterPath="$PROJECT_DIR$/protected/views/common/modifypwd.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/comm/register.php" afterPath="$PROJECT_DIR$/protected/views/common/register.php" />
     </list>
     <ignored path="advs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -381,11 +165,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PageException.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/PageException.php">
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="248">
+              <caret line="44" column="116" selection-start-line="44" selection-start-column="116" selection-end-line="44" selection-end-column="116" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -394,125 +194,47 @@
       <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2046">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfferCountSelf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/OfferCountSelf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2986">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="813">
+              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
-                <marker date="1470643035111" expanded="true" signature="3301:3350" ph="select affid... offer_count_self" />
+                <marker date="1471685815495" expanded="true" signature="2852:3023" ph="select disti... t_user_actor_assign" />
+                <marker date="1471685815495" expanded="true" signature="2916:3022" ph="select actor... t_actor_auth" />
+                <marker date="1471685815495" expanded="true" signature="3651:3763" ph="insert into t_access_log... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="527">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoyUpdateLogs.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/JoyUpdateLogs.php">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/modules/user/views/user/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2676">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/PaymentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="154" column="74" selection-start-line="154" selection-start-column="74" selection-end-line="154" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfferRedis.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/models/OfferRedis.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8287">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="496">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <marker date="1470643044245" expanded="true" signature="10280:10333" ph="select ${$fi... joy_offers" />
+                <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoyCountPay.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/JoyCountPay.php">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+            <state relative-caret-position="487">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1470643055153" expanded="true" signature="3479:3574" ph="select `time... offer_count_self" />
-                <marker date="1470643055153" expanded="true" signature="4486:4581" ph="select `time... offer_count_self" />
-                <marker date="1470643055153" expanded="true" signature="5024:5098" ph="select time " />
-                <marker date="1470643055153" expanded="true" signature="5305:5351" ph="select pdate... joy_paydate" />
-                <marker date="1470643055153" expanded="true" signature="6682:6751" ph="select * fro... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="7300:7534" ph="select count... " />
-                <marker date="1470643055153" expanded="true" signature="8466:8953" ph="select p.id,... *" />
-                <marker date="1470643055153" expanded="true" signature="8650:8756" ph="select t.*,u... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="9061:9131" ph="select sum(a... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="9430:9521" ph="select amoun... joy_invoice" />
-                <marker date="1470643055153" expanded="true" signature="10590:11223" ph="select g.ext... *" />
-                <marker date="1470643055153" expanded="true" signature="10782:10888" ph="select t.*,u... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="11050:11149" ph="SELECT sum(e... joy_count_extra" />
-                <marker date="1470643055153" expanded="true" signature="11331:11401" ph="select sum(a... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="11433:11505" ph="select sum(a... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="11531:11608" ph="select sum(a... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="12150:12316" ph="select sum(a... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="12679:13171" ph="select t.sit... site_id" />
-                <marker date="1470643055153" expanded="true" signature="12765:12927" ph="SELECT site_... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="12941:13089" ph="SELECT site_... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="14293:14851" ph="select t.amo... sum" />
-                <marker date="1470643055153" expanded="true" signature="14458:14552" ph="select sum(a... joy_count_pay" />
-                <marker date="1470643055153" expanded="true" signature="14669:14805" ph="SELECT sum(e... joy_count_extra" />
-                <marker date="1470643055153" expanded="true" signature="16534:16691" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="16544:16587" ph="{...}" />
-                <marker date="1470643055153" expanded="true" signature="16596:16625" ph="{...}" />
-                <marker date="1470643055153" expanded="true" signature="16630:16682" ph="{...}" />
-                <marker date="1470643055153" expanded="true" signature="16709:18634" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="16717:16774" ph="..." />
-                <marker date="1470643055153" expanded="false" signature="16790:16807" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="16808:18634" ph="..." />
-                <marker date="1470643055153" expanded="false" signature="17464:17503" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="17549:17862" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="17559:17687" ph="..." />
-                <marker date="1470643055153" expanded="false" signature="17574:17607" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="17608:17676" ph="..." />
-                <marker date="1470643055153" expanded="false" signature="17702:17737" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="17738:17852" ph="..." />
-                <marker date="1470643055153" expanded="false" signature="17937:17952" ph="..." />
-                <marker date="1470643055153" expanded="true" signature="19786:19836" ph="select * fro... joy_invoice" />
-                <marker date="1470643055153" expanded="true" signature="19995:20212" ph="select u.com... joy_invoice" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityAR.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/SecurityAR.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1643">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -520,28 +242,28 @@
       <file leaf-file-name="System.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/System.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="929" column="55" selection-start-line="929" selection-start-column="42" selection-end-line="929" selection-end-column="55" />
+            <state relative-caret-position="465">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
               <folding>
-                <marker date="1470643047975" expanded="true" signature="896:926" ph="SELECT * FRO... " />
-                <marker date="1470643047975" expanded="true" signature="2060:2095" ph="SELECT * FRO... " />
-                <marker date="1470643047975" expanded="true" signature="10224:10238" ph="SELECT * FRO... ${self::$tbluser}" />
-                <marker date="1470643047975" expanded="true" signature="12215:12246" ph="SELECT count... ${self::$tbluser}" />
-                <marker date="1470643047975" expanded="true" signature="12645:12703" ph="SELECT * FRO... ${self::$tbluser}" />
-                <marker date="1470643047975" expanded="true" signature="14778:14948" ph="INSERT INTO ${self::$tbluser}... " />
-                <marker date="1470643047975" expanded="true" signature="20297:20445" ph="INSERT INTO ${self::$tblsystemlog}... " />
-                <marker date="1470643047975" expanded="true" signature="22698:22729" ph="SELECT count... ${self::$tblsystemlog}" />
-                <marker date="1470643047975" expanded="true" signature="23133:23216" ph="SELECT * FRO... ${self::$tblsystemlog}" />
-                <marker date="1470643047975" expanded="true" signature="24753:24807" ph="SELECT * FRO... ${self::$tblpower}" />
-                <marker date="1470643047975" expanded="true" signature="26972:27116" ph="INSERT INTO ${self::$tblpower}... " />
-                <marker date="1470643047975" expanded="true" signature="31548:31562" ph="SELECT * FRO... ${self::$tblgroup}" />
-                <marker date="1470643047975" expanded="true" signature="33499:33586" ph="INSERT INTO ${self::$tblgroup}... " />
-                <marker date="1470643047975" expanded="true" signature="38548:38594" ph="DELETE FROM " />
-                <marker date="1470643047975" expanded="true" signature="40478:40537" ph="SELECT * FRO... ${self::$tblgrouppower}" />
-                <marker date="1470643047975" expanded="true" signature="42653:42747" ph="INSERT INTO ${self::$tblgrouppower}... " />
-                <marker date="1470643047975" expanded="true" signature="44482:44535" ph="SELECT * FRO... ${self::$tblgrouppower}" />
-                <marker date="1470643047975" expanded="true" signature="47595:47641" ph="DELETE FROM " />
-                <marker date="1470643047975" expanded="true" signature="49141:49192" ph="DELETE FROM " />
+                <marker date="1471686700687" expanded="true" signature="882:912" ph="SELECT * FRO... " />
+                <marker date="1471686700687" expanded="true" signature="2046:2081" ph="SELECT * FRO... " />
+                <marker date="1471686700687" expanded="true" signature="10210:10224" ph="SELECT * FRO... ${self::$tbluser}" />
+                <marker date="1471686700687" expanded="true" signature="12201:12232" ph="SELECT count... ${self::$tbluser}" />
+                <marker date="1471686700687" expanded="true" signature="12631:12689" ph="SELECT * FRO... ${self::$tbluser}" />
+                <marker date="1471686700687" expanded="true" signature="14764:14934" ph="INSERT INTO ${self::$tbluser}... " />
+                <marker date="1471686700687" expanded="true" signature="20283:20431" ph="INSERT INTO ${self::$tblsystemlog}... " />
+                <marker date="1471686700687" expanded="true" signature="22684:22715" ph="SELECT count... ${self::$tblsystemlog}" />
+                <marker date="1471686700687" expanded="true" signature="23119:23202" ph="SELECT * FRO... ${self::$tblsystemlog}" />
+                <marker date="1471686700687" expanded="true" signature="24739:24793" ph="SELECT * FRO... ${self::$tblpower}" />
+                <marker date="1471686700687" expanded="true" signature="26958:27102" ph="INSERT INTO ${self::$tblpower}... " />
+                <marker date="1471686700687" expanded="true" signature="31534:31548" ph="SELECT * FRO... ${self::$tblgroup}" />
+                <marker date="1471686700687" expanded="true" signature="33485:33572" ph="INSERT INTO ${self::$tblgroup}... " />
+                <marker date="1471686700687" expanded="true" signature="38534:38580" ph="DELETE FROM " />
+                <marker date="1471686700687" expanded="true" signature="40464:40523" ph="SELECT * FRO... ${self::$tblgrouppower}" />
+                <marker date="1471686700687" expanded="true" signature="42639:42733" ph="INSERT INTO ${self::$tblgrouppower}... " />
+                <marker date="1471686700687" expanded="true" signature="44468:44521" ph="SELECT * FRO... ${self::$tblgrouppower}" />
+                <marker date="1471686700687" expanded="true" signature="47581:47627" ph="DELETE FROM " />
+                <marker date="1471686700687" expanded="true" signature="49127:49178" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -556,28 +278,52 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/config.dev.php" />
-        <option value="$PROJECT_DIR$/protected/runtime/application.log" />
         <option value="$PROJECT_DIR$/protected/controllers/ErrorController.php" />
         <option value="$PROJECT_DIR$/protected/views/error/error.php" />
         <option value="$PROJECT_DIR$/protected/components/TestController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TestController.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.dev.php" />
         <option value="$PROJECT_DIR$/protected/views/comm/login.php" />
-        <option value="$PROJECT_DIR$/protected/models/LoginForm.php" />
         <option value="$PROJECT_DIR$/protected/components/ipip.php" />
-        <option value="$PROJECT_DIR$/protected/config/param.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/../yii/base/CModel.php" />
-        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
-        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/../yii/web/CController.php" />
         <option value="$PROJECT_DIR$/protected/views/system/index.php" />
         <option value="$PROJECT_DIR$/protected/views/sidebar.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SystemController.php" />
         <option value="$PROJECT_DIR$/protected/components/PageException.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/protected/components/user/UserController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/IndexController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/UsermodModule.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/UserModule.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/../yii/base/CComponent.php" />
+        <option value="$PROJECT_DIR$/protected/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/../yii/web/auth/CWebUser.php" />
+        <option value="$PROJECT_DIR$/../yii/web/CHttpRequest.php" />
+        <option value="$PROJECT_DIR$/assets/hplus/css/login.min.css" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/../yii/base/CApplication.php" />
+        <option value="$PROJECT_DIR$/../yii/web/CController.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/login.php" />
+        <option value="$PROJECT_DIR$/protected/views/common/login.php" />
+        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SystemController.php" />
+        <option value="$PROJECT_DIR$/protected/config/powerconf.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/index/index.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/CommonController.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.dev.php" />
+        <option value="$PROJECT_DIR$/protected/models/SecurityAR.php" />
+        <option value="$PROJECT_DIR$/config.dev.php" />
+        <option value="$PROJECT_DIR$/protected/runtime/application.log" />
+        <option value="$PROJECT_DIR$/protected/config/param.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/views/list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/protected/models/System.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/sidebar.php" />
       </list>
     </option>
   </component>
@@ -592,8 +338,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="186" />
-    <option name="y" value="52" />
+    <option name="x" value="453" />
+    <option name="y" value="29" />
     <option name="width" value="1462" />
     <option name="height" value="912" />
   </component>
@@ -718,7 +464,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -740,7 +486,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -762,7 +512,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -771,21 +529,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xueqiu/admin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\php_web\myservice\advs\protected" />
+      <recent name="G:\php_web\myservice\advs\protected\modules\user\views\user" />
+      <recent name="G:\php_web\myservice\advs\protected\views\common" />
+      <recent name="G:\php_web\myservice\advs\protected\views\layouts" />
+      <recent name="G:\php_web\myservice\advs\protected\modules\user\models" />
+      <recent name="G:\php_web\myservice\advs\protected\modules\user\controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\php_web\myservice\advs\protected\views\layouts" />
+      <recent name="G:\php_web\myservice\advs\protected\views\user" />
       <recent name="G:\php_web\myservice\advs\protected\models" />
+      <recent name="G:\php_web\myservice\advs\protected\controllers" />
       <recent name="G:\php_web\myservice\advs\protected\components" />
-      <recent name="G:\php_web\myservice\advs\assets\hplus" />
-      <recent name="G:\php_web\myservice\advs\protected\views\error" />
-      <recent name="G:\php_web\myservice\advs\protected\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -840,7 +602,9 @@
       <workItem from="1470658579393" duration="6303000" />
       <workItem from="1470727350067" duration="1204000" />
       <workItem from="1470804420323" duration="3065000" />
-      <workItem from="1470812696245" duration="30673000" />
+      <workItem from="1470812696245" duration="32004000" />
+      <workItem from="1471226859493" duration="12453000" />
+      <workItem from="1471602736567" duration="27063000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1470820356269</created>
@@ -863,33 +627,47 @@
       <option name="project" value="LOCAL" />
       <updated>1470823876869</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="t">
+      <created>1470997158346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1470997158346</updated>
+    </task>
+    <task id="LOCAL-00005" summary="t">
+      <created>1471352170090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471352170090</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48163000" />
+    <option name="totallyTimeSpent" value="89010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="52" width="1462" height="912" extended-state="0" />
+    <frame x="453" y="29" width="1462" height="912" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31169757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32025677" sideWeight="0.4948718" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32025677" sideWeight="0.5051282" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -904,275 +682,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="t" />
     <MESSAGE value="视图" />
-    <option name="LAST_COMMIT_MESSAGE" value="视图" />
+    <MESSAGE value="t" />
+    <option name="LAST_COMMIT_MESSAGE" value="t" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/14a12fc1/pager.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/powerconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="46" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.pro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/commands/Tools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2179">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/commands/AdvertiserAdCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6603">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1470643073606" expanded="true" signature="3500:3608" ph="update joy_o... " />
-            <marker date="1470643073606" expanded="true" signature="7003:7111" ph="update joy_o... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/SubPages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/advertiseradconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/otherConf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#27#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/powerconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/error/error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/runtime/application.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/hplus/css/demo/webuploader-demo.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/SmaatoSnippet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7750">
-          <caret line="136" column="90" selection-start-line="136" selection-start-column="90" selection-end-line="136" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/CfgAR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <marker date="1470913508654" expanded="true" signature="128:351" ph="select u.com... joy_invoice" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ErrorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/error/error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/comm/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-          <folding>
-            <marker date="1470972361563" expanded="true" signature="1904:1944" ph="..." />
-            <marker date="1470972361563" expanded="true" signature="2202:2242" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/OfferController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="184" column="38" selection-start-line="184" selection-start-column="38" selection-end-line="184" selection-end-column="38" />
-          <folding>
-            <marker date="1468893467426" expanded="true" signature="5381:5500" ph="SELECT offer... joy_transaction" />
-            <marker date="1468893467426" expanded="true" signature="5894:6081" ph="SELECT offer... joy_transaction_income" />
-            <marker date="1468893467426" expanded="true" signature="6469:6675" ph="SELECT offer... joy_transaction_income" />
-            <marker date="1468893467426" expanded="true" signature="44674:44739" ph="SELECT * FRO... joy_c_offers" />
-            <marker date="1468893467426" expanded="true" signature="71392:71460" ph="select * fro... joy_offers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/StatisticClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/param.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/main.api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/yiic.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="434">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.dev.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        <state relative-caret-position="-2511">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/ipip.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/user/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="496">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <marker date="1468893471105" expanded="true" signature="2062:2124" ph="update joy_s... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="317" column="35" selection-start-line="317" selection-start-column="35" selection-end-line="317" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#94#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AApiController.php1">
+    <entry file="file://$PROJECT_DIR$/protected/components/Tools.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1180,48 +731,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/JoySystemUser.php">
+    <entry file="file://$PROJECT_DIR$/../yii/base/CComponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4712">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <marker date="1470643038572" expanded="true" signature="10584:10630" ph="select ${$fi... ${$table_name}" />
-            <marker date="1470643038572" expanded="true" signature="10921:10967" ph="select ${$fi... ${$table_name}" />
-            <marker date="1470643038572" expanded="true" signature="11837:11872" ph="select ${$fi... joy_user_control" />
-            <marker date="1470643038572" expanded="true" signature="12107:12144" ph="update joy_u... " />
-            <marker date="1470643038572" expanded="true" signature="13397:13423" ph="update joy_s... " />
-            <marker date="1470643038572" expanded="true" signature="13831:13857" ph="update joy_s... " />
-            <marker date="1470643038572" expanded="true" signature="14222:14285" ph="select id fr... joy_system_user" />
-            <marker date="1470643038572" expanded="true" signature="14341:14408" ph="select id fr... joy_sites" />
-          </folding>
+        <state relative-caret-position="746">
+          <caret line="295" column="5" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2015">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yii/yiilite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="3896" column="27" selection-start-line="3896" selection-start-column="27" selection-end-line="3896" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yii/web/auth/CWebUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="371" column="24" selection-start-line="371" selection-start-column="24" selection-end-line="371" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="649" column="73" selection-start-line="649" selection-start-column="73" selection-end-line="649" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yii/web/CHttpRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="716" column="22" selection-start-line="716" selection-start-column="22" selection-end-line="716" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/user/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hplus/img/login-background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hplus/css/login.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../yii/base/CModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="157" column="35" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
+        <state relative-caret-position="64">
+          <caret line="150" column="20" selection-start-line="150" selection-start-column="20" selection-end-line="150" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#strong#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="626" column="9" selection-start-line="626" selection-start-column="9" selection-end-line="626" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yii/base/CApplication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="363" column="20" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yii/web/CWebModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../yii/web/CController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="868" column="28" selection-start-line="868" selection-start-column="28" selection-end-line="868" selection-end-column="28" />
+        <state relative-caret-position="467">
+          <caret line="785" column="0" selection-start-line="785" selection-start-column="0" selection-end-line="785" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1230,218 +844,294 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
           <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/common/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
           <folding>
-            <marker date="1470986482477" expanded="true" signature="116:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="149:255" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="280:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="328:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="376:448" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="477:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="543:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="582:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="701:727" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="871:1006" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="980:1006" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="1153:1296" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="1270:1296" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="1445:1593" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="1567:1593" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="1740:1879" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="1853:1879" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="2029:2184" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="2146:2184" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="2483:2622" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="2596:2622" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="2772:2903" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="2877:2903" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="3048:3183" ph="..." />
-            <marker date="1470986482477" expanded="true" signature="3157:3183" ph="..." />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/sidebar.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="250">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/powerconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state relative-caret-position="456">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="43">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding>
+            <element signature="e#7#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <marker date="1471604537019" expanded="true" signature="1974:2036" ph="update joy_s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/common/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SystemController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        <state relative-caret-position="446">
+          <caret line="692" column="30" selection-start-line="692" selection-start-column="30" selection-end-line="692" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_c.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="573" column="0" selection-start-line="573" selection-start-column="0" selection-end-line="573" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/PageException.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/main.dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3352">
+          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2046">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        <state relative-caret-position="270">
+          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/OfferCountSelf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2986">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <marker date="1470643035111" expanded="true" signature="3301:3350" ph="select affid... offer_count_self" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/JoyUpdateLogs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2676">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/JoyCountPay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
-          <folding>
-            <marker date="1470643055153" expanded="true" signature="3479:3574" ph="select `time... offer_count_self" />
-            <marker date="1470643055153" expanded="true" signature="4486:4581" ph="select `time... offer_count_self" />
-            <marker date="1470643055153" expanded="true" signature="5024:5098" ph="select time " />
-            <marker date="1470643055153" expanded="true" signature="5305:5351" ph="select pdate... joy_paydate" />
-            <marker date="1470643055153" expanded="true" signature="6682:6751" ph="select * fro... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="7300:7534" ph="select count... " />
-            <marker date="1470643055153" expanded="true" signature="8466:8953" ph="select p.id,... *" />
-            <marker date="1470643055153" expanded="true" signature="8650:8756" ph="select t.*,u... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="9061:9131" ph="select sum(a... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="9430:9521" ph="select amoun... joy_invoice" />
-            <marker date="1470643055153" expanded="true" signature="10590:11223" ph="select g.ext... *" />
-            <marker date="1470643055153" expanded="true" signature="10782:10888" ph="select t.*,u... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="11050:11149" ph="SELECT sum(e... joy_count_extra" />
-            <marker date="1470643055153" expanded="true" signature="11331:11401" ph="select sum(a... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="11433:11505" ph="select sum(a... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="11531:11608" ph="select sum(a... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="12150:12316" ph="select sum(a... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="12679:13171" ph="select t.sit... site_id" />
-            <marker date="1470643055153" expanded="true" signature="12765:12927" ph="SELECT site_... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="12941:13089" ph="SELECT site_... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="14293:14851" ph="select t.amo... sum" />
-            <marker date="1470643055153" expanded="true" signature="14458:14552" ph="select sum(a... joy_count_pay" />
-            <marker date="1470643055153" expanded="true" signature="14669:14805" ph="SELECT sum(e... joy_count_extra" />
-            <marker date="1470643055153" expanded="true" signature="16534:16691" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="16544:16587" ph="{...}" />
-            <marker date="1470643055153" expanded="true" signature="16596:16625" ph="{...}" />
-            <marker date="1470643055153" expanded="true" signature="16630:16682" ph="{...}" />
-            <marker date="1470643055153" expanded="true" signature="16709:18634" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="16717:16774" ph="..." />
-            <marker date="1470643055153" expanded="false" signature="16790:16807" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="16808:18634" ph="..." />
-            <marker date="1470643055153" expanded="false" signature="17464:17503" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="17549:17862" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="17559:17687" ph="..." />
-            <marker date="1470643055153" expanded="false" signature="17574:17607" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="17608:17676" ph="..." />
-            <marker date="1470643055153" expanded="false" signature="17702:17737" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="17738:17852" ph="..." />
-            <marker date="1470643055153" expanded="false" signature="17937:17952" ph="..." />
-            <marker date="1470643055153" expanded="true" signature="19786:19836" ph="select * fro... joy_invoice" />
-            <marker date="1470643055153" expanded="true" signature="19995:20212" ph="select u.com... joy_invoice" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/SecurityAR.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1643">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="456">
+          <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/param.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/UserModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/runtime/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/System.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="929" column="55" selection-start-line="929" selection-start-column="42" selection-end-line="929" selection-end-column="55" />
+        <state relative-caret-position="465">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding>
-            <marker date="1470643047975" expanded="true" signature="896:926" ph="SELECT * FRO... " />
-            <marker date="1470643047975" expanded="true" signature="2060:2095" ph="SELECT * FRO... " />
-            <marker date="1470643047975" expanded="true" signature="10224:10238" ph="SELECT * FRO... ${self::$tbluser}" />
-            <marker date="1470643047975" expanded="true" signature="12215:12246" ph="SELECT count... ${self::$tbluser}" />
-            <marker date="1470643047975" expanded="true" signature="12645:12703" ph="SELECT * FRO... ${self::$tbluser}" />
-            <marker date="1470643047975" expanded="true" signature="14778:14948" ph="INSERT INTO ${self::$tbluser}... " />
-            <marker date="1470643047975" expanded="true" signature="20297:20445" ph="INSERT INTO ${self::$tblsystemlog}... " />
-            <marker date="1470643047975" expanded="true" signature="22698:22729" ph="SELECT count... ${self::$tblsystemlog}" />
-            <marker date="1470643047975" expanded="true" signature="23133:23216" ph="SELECT * FRO... ${self::$tblsystemlog}" />
-            <marker date="1470643047975" expanded="true" signature="24753:24807" ph="SELECT * FRO... ${self::$tblpower}" />
-            <marker date="1470643047975" expanded="true" signature="26972:27116" ph="INSERT INTO ${self::$tblpower}... " />
-            <marker date="1470643047975" expanded="true" signature="31548:31562" ph="SELECT * FRO... ${self::$tblgroup}" />
-            <marker date="1470643047975" expanded="true" signature="33499:33586" ph="INSERT INTO ${self::$tblgroup}... " />
-            <marker date="1470643047975" expanded="true" signature="38548:38594" ph="DELETE FROM " />
-            <marker date="1470643047975" expanded="true" signature="40478:40537" ph="SELECT * FRO... ${self::$tblgrouppower}" />
-            <marker date="1470643047975" expanded="true" signature="42653:42747" ph="INSERT INTO ${self::$tblgrouppower}... " />
-            <marker date="1470643047975" expanded="true" signature="44482:44535" ph="SELECT * FRO... ${self::$tblgrouppower}" />
-            <marker date="1470643047975" expanded="true" signature="47595:47641" ph="DELETE FROM " />
-            <marker date="1470643047975" expanded="true" signature="49141:49192" ph="DELETE FROM " />
+            <marker date="1471686700687" expanded="true" signature="882:912" ph="SELECT * FRO... " />
+            <marker date="1471686700687" expanded="true" signature="2046:2081" ph="SELECT * FRO... " />
+            <marker date="1471686700687" expanded="true" signature="10210:10224" ph="SELECT * FRO... ${self::$tbluser}" />
+            <marker date="1471686700687" expanded="true" signature="12201:12232" ph="SELECT count... ${self::$tbluser}" />
+            <marker date="1471686700687" expanded="true" signature="12631:12689" ph="SELECT * FRO... ${self::$tbluser}" />
+            <marker date="1471686700687" expanded="true" signature="14764:14934" ph="INSERT INTO ${self::$tbluser}... " />
+            <marker date="1471686700687" expanded="true" signature="20283:20431" ph="INSERT INTO ${self::$tblsystemlog}... " />
+            <marker date="1471686700687" expanded="true" signature="22684:22715" ph="SELECT count... ${self::$tblsystemlog}" />
+            <marker date="1471686700687" expanded="true" signature="23119:23202" ph="SELECT * FRO... ${self::$tblsystemlog}" />
+            <marker date="1471686700687" expanded="true" signature="24739:24793" ph="SELECT * FRO... ${self::$tblpower}" />
+            <marker date="1471686700687" expanded="true" signature="26958:27102" ph="INSERT INTO ${self::$tblpower}... " />
+            <marker date="1471686700687" expanded="true" signature="31534:31548" ph="SELECT * FRO... ${self::$tblgroup}" />
+            <marker date="1471686700687" expanded="true" signature="33485:33572" ph="INSERT INTO ${self::$tblgroup}... " />
+            <marker date="1471686700687" expanded="true" signature="38534:38580" ph="DELETE FROM " />
+            <marker date="1471686700687" expanded="true" signature="40464:40523" ph="SELECT * FRO... ${self::$tblgrouppower}" />
+            <marker date="1471686700687" expanded="true" signature="42639:42733" ph="INSERT INTO ${self::$tblgrouppower}... " />
+            <marker date="1471686700687" expanded="true" signature="44468:44521" ph="SELECT * FRO... ${self::$tblgrouppower}" />
+            <marker date="1471686700687" expanded="true" signature="47581:47627" ph="DELETE FROM " />
+            <marker date="1471686700687" expanded="true" signature="49127:49178" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/PaymentController.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="154" column="74" selection-start-line="154" selection-start-column="74" selection-end-line="154" selection-end-column="74" />
+        <state relative-caret-position="487">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <marker date="1471685815495" expanded="true" signature="2852:3023" ph="select disti... t_user_actor_assign" />
+            <marker date="1471685815495" expanded="true" signature="2916:3022" ph="select actor... t_actor_auth" />
+            <marker date="1471685815495" expanded="true" signature="3651:3763" ph="insert into t_access_log... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/OfferRedis.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8287">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="248">
+          <caret line="44" column="116" selection-start-line="44" selection-start-column="116" selection-end-line="44" selection-end-column="116" />
           <folding>
-            <marker date="1470643044245" expanded="true" signature="10280:10333" ph="select ${$fi... joy_offers" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/user/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

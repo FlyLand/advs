@@ -25,7 +25,9 @@ class ApiController extends Controller
             $code = $this->getErrorCode();
             $msg = $this->getErrorMsg();
         }
-        StatisticClient::report('User', 'getInfo', $success, $code, $msg);
+        $original_offer_id	=	Yii::app()->request->getParam('oid');
+        $original_aff_id		=	Yii::app()->request->getParam('channel');
+        StatisticClient::report('adv', $original_offer_id.'ApiClick'.$original_aff_id, $success, $code, $msg);
     }
     public function clickIm() {
         $default_offer = joy_offers::model()->findByPk(DEFAULT_OFFER_ID);
@@ -170,6 +172,18 @@ class ApiController extends Controller
     }
 
     public function actionAdsBack(){
+        StatisticClient::tick("Api", 'Postback');
+        $success = true; $code = 0; $msg = '';
+        $info = $this->adsBack();
+        if(!$info){
+            $success = false;
+            $code = $this->getErrorCode();
+            $msg = $this->getErrorMsg();
+        }
+        StatisticClient::report('adv', 'ApiPostback', $success, $code, $msg);
+    }
+
+    private function adsBack(){
         $ispostbacked	=	0;
         $postback		=	'';
         $belong = 1;
@@ -332,7 +346,7 @@ class ApiController extends Controller
         if(0 != $this->ret_array['ret']){
             echo 'fail';
         }else{
-	    if(empty($belong) || empty($postback)){
+            if(empty($belong) || empty($postback)){
                 $ispostbacked = 0;
             }
             if($ispostbacked == 1){
@@ -341,6 +355,11 @@ class ApiController extends Controller
             }else{
                 echo 'success';
             }
+        }
+        if($this->getErrorMsg()){
+            return false;
+        }else{
+            return true;
         }
     }
 
